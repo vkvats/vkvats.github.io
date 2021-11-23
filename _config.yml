@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Vibhas Kumar Vats"
+title                    : "Vibhas Vats"
 title_separator          : "-"
 name                     : &name "Vibhas Vats"
 description              : &description "Computer Vision researcher at Indiana University Bloomington"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Vibhas Vats"
+  name             : "Vibhas Kumar Vats"
   avatar           : "profile.png"
   bio              : "Computer Vision researcher"
   location         : "Bloomington, IN"
