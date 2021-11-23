@@ -11,30 +11,28 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.Tech in Electrical Engineering, National Institute of Technology (NIT) Patna, India, 2015
+* M.S. Data Science, Indiana University Bloomington, 2021
+* Ph.D in Computer Science, Indiana University Bloomington, 2021 - Present
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2021: Research Assistant - IU Computer Vision Lab
+  * Indiana University Bloomington
+  * Duties included: 3D reconstruction from point cloud data.
+  * Supervisor: Professor David Crandall
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Fall 2018 - Fall 2019: External Research Fellow
+  * NIT Patna
+  * Duties included: Designing load forecasting system.
+  * Supervisor: Professor Mala De
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python
+* SQL
+* R
+* TensorFlow, PyTorch
 
 Publications
 ======
