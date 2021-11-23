@@ -85,8 +85,8 @@ author:
   bio              : "Computer Vision researcher"
   location         : "Bloomington, IN"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=aRoPd9gAAAAJ&hl=en&authuser=2"
+  pubmed           : 
+  googlescholar    : "https://scholar.google.com/citations?user=aRoPd9gAAAAJ&hl=en&authuser=1"
   email            : "vkvatsdss@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "vkvats"
   google_plus      :
   keybase          :
   instagram        :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "@VatsVibhas"
+  twitter          : "https://twitter.com/VatsVibhas"
   vine             :
   weibo            :
   xing             :
