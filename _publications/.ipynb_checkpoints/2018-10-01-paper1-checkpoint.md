@@ -6,13 +6,11 @@ excerpt: 'This paper is about using data driven approach to forecast electrical 
 date: 2018-11-03
 venue: 'IEEE Xplore'
 paperurl: 
-citation: 'VK Vats, S Rai, D Bharti, Mala De. (2018).  &quot;Very Short-term, Short-Term and Mid-Term Load Forecasting for Residential Academic Institure: A Case Study.&quot; <i>IEEE</i>. 1-6.'
+citation: 'VK Vats, S Rai, D Bharti, Mala De. (2018).  &quot;Very Short-term, Short-Term and Mid-Term Load Forecasting for Residential Academic Institure: A Case Study.&quot; <i>IEEE</i>. 1-6.' 
 ---
 This paper is a case study for using data-driven load forecasting model.
 
 [Download paper here](http://vkvats.github.io/files/paper1.pdf)
 
-Abstract: With the ever-increasing number of smart meter installations, an enormous amount of power consumption data is collected by these meters in real time. Availability of this large amount of power consumption data has changed the way
-power system analyses were done traditionally; one such area being load forecasting. The load forecasting is now largely data-driven and hence failure to receive data from the smart meters lead to forecasting errors. The present paper targets to solve this
-problem by introducing a novel classification-based load forecasting methodology that enables day-ahead load predication in case of missing data due to communication link failure. In this method, the loads are classified or clustered in sub-classes based on amount of consumption and then day-ahead forecasting is done using this clustered load data. The proposed methodology is demonstrated using the data collected in a practical smart system installed at NIT Patna campus.
+Abstract: In recent years number of smart meters installed in the distribution systems around the world has increased manifold. The large-scale data collected by these smart meters record real-time energy consumption across different nodes of the system. This constitutes a very large set of information. Availability of this very large amount of smart meter data opens up new avenues for multiple operations like load forecasting, demand side management (DSM), error identification etc. For DSM, availability of forecasted load data is indispensable. This paper presents a load forecasting technique that works well for very short term i.e. hour ahead or 15 min ahead load forecasting along with day ahead, month ahead and season ahead case i.e. short term as well as mid-term load forecasting technique. The forecasting is shown for the smart meter data of a practical system available at NIT Patna campus. The uniqueness about NIT Patna campus system is that it is a combination of all possible types of loads like commercial, residential as well as small industry due to the presence of multiple laboratories in the institute. Applicability of the proposed method on NIT Patna campus data shows the method’s applicability to any type of distribution system
 
