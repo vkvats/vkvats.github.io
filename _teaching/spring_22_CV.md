@@ -4,7 +4,7 @@ collection: teaching
 type: "Graduate Level Course"
 permalink: /teaching/spring_22_CV
 venue: "Indiana University Bloomington, Computer Science Department"
-date: Spring 2022
+date: 2022-10-01
 location: "Bloomington, IN, USA"
 ---
 
