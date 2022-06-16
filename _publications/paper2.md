@@ -1,7 +1,7 @@
 ---
 title: "Mitigating Effect of Communication Link Failure in Smart Meter-Based Load Forecasting"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
+permalink: /publication/mitigating-springer-singapore-2018
 excerpt: 'This paper uses machine learning techniques to mitigate the effect of communication link failure by predicting the missing parameters using various ML algorithms.'
 date: 2018-11-03
 venue: 'Springer, Singapore'

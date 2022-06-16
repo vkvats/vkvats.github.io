@@ -1,7 +1,7 @@
 ---
 title: "Very Short-term, Short-Term and Mid-Term Load Forecasting for Residential Academic Institure: A Case Study"
 collection: conference publications
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/load-forecasting-IEEE-Xplore
 excerpt: 'This paper is about using data driven approach to forecast electrical load for very short-term, short-term and mid-term load in academic building types'
 date: 2018-11-03
 venue: 'IEEE Xplore'
