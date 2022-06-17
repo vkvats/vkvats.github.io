@@ -12,3 +12,5 @@ In spring 2022, I designed and was the instructor for the first iteration of 'Co
 
 
 [Spring 2022 discussion schedule](https://vkvats.github.io/files/B657-discussion-papers-Spring22.pdf) | [Discussion Slides](https://drive.google.com/drive/folders/1vEXb8_-DZn4HFVfo7bC_Q6CvqAJlRPCB?usp=sharing) | Videos
+
+.
