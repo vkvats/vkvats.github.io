@@ -51,3 +51,6 @@ Service
 News
 ------
 
+fun
+------
+I run for fun :). Find me on Nike Run club (@Vibhas_Vats).
