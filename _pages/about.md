@@ -31,7 +31,7 @@ In spring 2022, I designed and was the instructor for the first iteration of 'Co
 Publications
 ------
 **Master's Thesis**
-* Response-Based Knowledge Distillation[pdf](https://vkvats.github.io/files/Vkvats_master_thesis.pdf)
+* Response-Based Knowledge Distillation.[(pdf)](https://vkvats.github.io/files/Vkvats_master_thesis.pdf)
 
 **Peer-reviewed Papers**
 
