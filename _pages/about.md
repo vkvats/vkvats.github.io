@@ -16,6 +16,10 @@ I am first year Ph.D. student at [Indiana University Bloomington](https://www.in
 Research Interests
 ------
 
+* Deep Learning - Architectural understanding and exploration 
+* 3D reconstruction with DL techniques
+* Image Segmentation 
+* Uses of Deep Learning techniques with Case-Based Reasoning methods (DL-CBR)
 
 Publications
 ------
@@ -35,7 +39,7 @@ Service
 
 **Conference Program Committee / Reviewer**
 
-International Conference on Intelligence Science - 2022
+* International Conference on Intelligence Science - 2022
 
 News
 ------
