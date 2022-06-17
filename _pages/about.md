@@ -26,7 +26,7 @@ Teaching
 
 I designed and lead the discussion section of Computer Vision course (B657) at Indiana Univerity in Spring 2022. 
 
-[Spring 2022 discussion schedule](B657-discussion-papers-Spring22) | [Discussion Slides](https://drive.google.com/drive/folders/1vEXb8_-DZn4HFVfo7bC_Q6CvqAJlRPCB?usp=sharing) | Videos
+[Spring 2022 discussion schedule](https://vkvats.github.io/files/B657-discussion-papers-Spring22.pdf) | [Discussion Slides](https://drive.google.com/drive/folders/1vEXb8_-DZn4HFVfo7bC_Q6CvqAJlRPCB?usp=sharing) | Videos
 
 Publications
 ------
