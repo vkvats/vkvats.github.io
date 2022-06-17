@@ -16,14 +16,17 @@ I am first year Ph.D. student at [Indiana University Bloomington](https://www.in
 Research Interests
 ------
 
+
 Publications
 ------
 
 **Peer-reviewed Papers**
+
 Please see my [Google Scholar Profile](https://scholar.google.com/citations?user=aRoPd9gAAAAJ&hl=en&authuser=5)
 
 
 **Preprints**
+
 Preprints are available on [arXiv](https://arxiv.org/a/vats_v_1.html)
 
 
