@@ -35,9 +35,9 @@ Publications
 
 **Peer-reviewed Papers**
 
-* Vibhas Vats, David Crandall (2021). "Controlling the Quality of Distillation in Response-Based Network Compression." AAAI-22. 1-8 [arXiv](https://arxiv.org/abs/2112.10047)
-* VK Vats, S Rai, S De, M De (2018). "Mitigating Effect of Communication Link Failure in Smart Meter-Based Load Forecasting." Springer. 289-300 [pdf](https://vkvats.github.io/publication/mitigating-springer-singapore-2018)
-* VK Vats, S Rai, D Bharti, Mala De. (2018). "Very Short-term, Short-Term and Mid-Term Load Forecasting for Residential Academic Institure: A Case Study." IEEE. 1-6.[pdf](https://vkvats.github.io/files/paper1.pdf)
+* Vibhas Vats, David Crandall (2021). "Controlling the Quality of Distillation in Response-Based Network Compression." AAAI-22. 1-8. [(arXiv)](https://arxiv.org/abs/2112.10047)
+* VK Vats, S Rai, S De, M De (2018). "Mitigating Effect of Communication Link Failure in Smart Meter-Based Load Forecasting." Springer. 289-300. [(pdf)](https://vkvats.github.io/publication/mitigating-springer-singapore-2018)
+* VK Vats, S Rai, D Bharti, Mala De. (2018). "Very Short-term, Short-Term and Mid-Term Load Forecasting for Residential Academic Institure: A Case Study." IEEE. 1-6.[(pdf)](https://vkvats.github.io/files/paper1.pdf)
 
 Please see my [Google Scholar Profile](https://scholar.google.com/citations?user=aRoPd9gAAAAJ&hl=en&authuser=5)
 
