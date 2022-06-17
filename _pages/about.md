@@ -46,6 +46,10 @@ Service
 
 **Conference Program Committee / Reviewer**
 
+Fun
+------
+
+I run for fun :). Find me on Nike Run club (@Vibhas_Vats)
 * International Conference on Intelligence Science - 2022
 
 News
