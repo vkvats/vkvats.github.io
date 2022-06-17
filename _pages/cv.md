@@ -11,9 +11,16 @@ redirect_from:
 
 Education
 ======
-* B.Tech in Electrical Engineering, National Institute of Technology (NIT) Patna, India, 2015
-* M.S. Data Science, Indiana University Bloomington, 2021
-* Ph.D in Computer Science, Indiana University Bloomington, 2021 - Present
+* Ph.D in Computer Science, Indiana University Bloomington, *2021 - 2026 (expected)*
+  * GPA: 4/4
+* M.S. Data Science, Indiana University Bloomington, *2019 - 2021*
+  * GPA: 3.97/4
+  * Data Analytics Track with thesis
+  * Master's thesis: [Response-Based Knowledge Distillation](https://vkvats.github.io/files/Vkvats_master_thesis.pdf)
+* B.Tech in Electrical Engineering, National Institute of Technology (NIT) Patna, India, * 2011 - 2015*
+  * GPA: 8.77/10
+
+
 
 Work experience
 ======
