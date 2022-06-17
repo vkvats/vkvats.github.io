@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[CV pdf](https://vkvats.github.io/files/VibhasVats-resume-public.pdf)
+[Resume pdf](https://vkvats.github.io/files/VibhasVats-resume-public.pdf)
 
 Education
 ------
