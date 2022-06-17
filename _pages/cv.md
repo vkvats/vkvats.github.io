@@ -85,6 +85,6 @@ Leadership and Awards
 ------
 * AI of the year award, Luddy School of Informatics, Computing and Engineering, 2021-2022 for exception contribution in teaching.
 * Best Graduate National Institute of Technology Patna, batch of 2015.
-* Honored by [Tata Sustainability group](https://www.tatasustainability.com/) for distinctive work in CSR under Pro-engage program in 2016-17.
+* Honored by [Tata Sustainability group](https://www.tatasustainability.com/) for distinctive work in CSR under [Pro-engage](https://www.tatasustainability.com/SocialAndHumanCapital/ProEngage) program in 2016-17.
 
  
