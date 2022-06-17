@@ -29,15 +29,18 @@ Education
 
 Research Experience
 ------
-* Summer 2021: Research Assistant - IU Computer Vision Lab
-  * Indiana University Bloomington
-  * Duties included: 3D reconstruction from point cloud data.
-  * Supervisor: Professor David Crandall
+* **Master’s Thesis** on “Response-based Knowledge Distillation” : *Aug 2020 – May 2021*
+  * Analyze the knowledge distillation process and proposed the soft-label hypothesis to explain the behavior of distillation process. 
+  * Proposed special consideration for pre-training teacher models for retaining similarity information in soft-labels for better knowledge distillation.
+* **Research Assistant**, Indiana University (IU Computer Vision lab) : *June 2020 – May 2021*
+  * Deep Learning (DL) - Case Based Reasoning (CBR) survey paper:
+  * Collaborated with DL-CBR research group in writing two sections of the survey paper- retrieval and DL models with memory.
+* **External Research Fellow**, NIT Patna (Electrical Engineering Lab) : *July 2018 – June 2019* 
+  * Project title: “Sustainable Smart Grid Framework for Energy Management System Incorporating Available Renewable Resources.” funded by the Science & Engineering Research Board, Government of India.
+  * Successfully conceptualized and implemented a model to mitigate the Communication-link failure in smart meter-based load forecasting system using various classification methods.
+  * Implemented an electrical load forecasting system with one year of data using polynomial regression model.
+  * Presented paper at 4th IEEE International Conference on Computing Communication and Automation (2018).
 
-* Fall 2018 - Fall 2019: External Research Fellow
-  * NIT Patna
-  * Duties included: Designing load forecasting system.
-  * Supervisor: Professor Mala De
   
 
 Publications
