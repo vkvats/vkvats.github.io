@@ -23,6 +23,7 @@ Education
   * Master's thesis: [Response-Based Knowledge Distillation](https://vkvats.github.io/files/Vkvats_master_thesis.pdf)
 * B.Tech in Electrical Engineering, National Institute of Technology (NIT) Patna, India, *2011 - 2015*
   * GPA: 8.77/10
+  * Best Graduate, Batch of 2015. [(certificate)](https://vkvats.github.io/files/Best-Graduate.pdf)
 
 
 
@@ -82,4 +83,8 @@ Skills
 
 Leadership and Awards
 ------
-* AI of the year award, Luddy School of Informatics, Computing and Engineering, 2021-2022 for exception contribution in teaching. 
+* AI of the year award, Luddy School of Informatics, Computing and Engineering, 2021-2022 for exception contribution in teaching.
+* Best Graduate National Institute of Technology Patna, batch of 2015.
+* Honored by [Tata Sustainability group](https://www.tatasustainability.com/) for distinctive work in CSR under Pro-engage program in 2016-17.
+
+ 
