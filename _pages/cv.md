@@ -48,11 +48,6 @@ Work Experience
 
 
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
   
 Teaching
 ======
@@ -60,14 +55,21 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
+Projects
+------
+
+* 
+
 Skills
 ------
-* Python
-* SQL
-* R
-* TensorFlow, PyTorch
+* **Languages & Tools**: Python, SQL, R, PyCharm, Rstudio, PostgreSQL, C
+* **Frameworks & Libraries**: Pytorch, TensorFlow, Keras, NumPy, Pandas, NLTK, Pillow, Scikit-learn.
+* **Certifications**: 
+  * “Machine Learning” and “Deep Learning” specialization by Prof. Andrew Ng on Coursera, 
+  * “TensorFlow in practice” by Laurence Moroney from Google.
+  * “Statistical Learning” by Prof. Hastie and Prof. Tibshirani on Stanford online
 
 
-Service and leadership
+Leadership and Awards
 ======
-* Currently signed in to 43 different slack teams
+* AI of the year award, Luddy School of Informatics, Computing and Engineering, 2021-2022 for exception contribution in teaching. 
