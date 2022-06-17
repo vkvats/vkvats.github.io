@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Academic webpage"
+title: "Vibhas Kumar Vats"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website.
+I am first year Ph.D. student at [Indiana University Bloomington](https://www.indiana.edu/). I work in [Computer Vision Lab](http://vision.soic.indiana.edu/) with [Prof. David Crandall](https://homes.luddy.indiana.edu/djcran/). 
 
 A data-driven personal website
 ======
