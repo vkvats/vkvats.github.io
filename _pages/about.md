@@ -21,6 +21,15 @@ Research Interests
 * Image Segmentation 
 * Uses of Deep Learning techniques with Case-Based Reasoning methods (DL-CBR)
 
+Teaching
+------
+
+I designed and lead the discussion section of Computer Vision course (B657) at Indiana Univerity in Spring 2022. 
+
+[Spring 2022 discussion schedule](B657-discussion-papers-Spring22)
+
+[Discussion Slides](https://drive.google.com/drive/folders/1vEXb8_-DZn4HFVfo7bC_Q6CvqAJlRPCB?usp=sharing)
+
 Publications
 ------
 
