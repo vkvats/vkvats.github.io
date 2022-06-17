@@ -47,15 +47,15 @@ Publications
   
 Work Experience
 ------
-* **Course Development and Instructor** – Computer Vision Paper Discussion Section, Indiana University.             Jan 2021 – May 2021
+* **Course Development and Instructor** – Computer Vision Paper Discussion Section, Indiana University: *Jan 2021 – May 2021*
   * Hold weekly office hours on Zoom to work one-on-one with graduate and undergraduate students.
   * Manage and help more than 80 graduate students with their doubts on Piazza.
 * **Associate Instructor**, Indiana University                                                    
-  * Computer Vision                                                  Spring 2021
-  * Elements of Artificial Intelligence                              Fall 2020, Spring 2021
+  * Computer Vision: *Spring 2021*
+  * Elements of Artificial Intelligence: *Fall 2020, Spring 2021*
   * Held weekly office hours on Zoom to work one-on-one with undergraduate, graduate students and working professionals.
   * Manage and help more than 100 graduate students with their doubts on Piazza/InScribe.
-* **Senior Manager**, Tata Motors Ltd. Pantnagar.                     2015 – Aug 2017
+* **Senior Manager**, Tata Motors Ltd. Pantnagar.                     *2015 – 2017*
   * Analyzed and optimized the maintenance frequency of Generator yard equipment using past breakdown and maintenance data.
   * Overhauled and systematized power transformer oil filtration frequency of 36 units of transformer, individually, by predicting oil characteristics threshold value against number of operation hours of each transformer using eight years of past records.
   
