@@ -24,7 +24,7 @@ Research Interests
 Teaching
 ------
 
-I designed and lead the discussion section of Computer Vision course (B657) at Indiana Univerity in Spring 2022. 
+I designed and was the instructor of Computer Vision - paper discussion section (B657) at Indiana University in Spring 2022. The course was designed to explore seminal papers about different architectures in recent history of deep-learning and computer vision.  The course traced the history of development of Convolutional Neural Networks (like, LeNet, Inception, ResNets, DenseNet, ConvMixer, Xception Net, et.), Multi-layer Perceptron based networks (like, MLP Mixer, ResMLP, cycleMLP and S^2 MLP model) and Transformer based Networks for vision application like, Vision Transformer, Deit, Swin Transformer, Local ViT, CvT etc. papers). The class met weekly with more than 130 students taking part in discussion.  
 
 [Spring 2022 discussion schedule](https://vkvats.github.io/files/B657-discussion-papers-Spring22.pdf) | [Discussion Slides](https://drive.google.com/drive/folders/1vEXb8_-DZn4HFVfo7bC_Q6CvqAJlRPCB?usp=sharing) | Videos
 
