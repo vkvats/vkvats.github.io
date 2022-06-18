@@ -83,10 +83,6 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Projects
-------
-
-* 
 
 Skills
 ------
