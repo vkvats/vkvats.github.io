@@ -11,7 +11,7 @@ redirect_from:
 About me
 ------
 
-I am first year Ph.D. student at [Indiana University Bloomington](https://www.indiana.edu/). I work in [Computer Vision Lab](http://vision.soic.indiana.edu/) with [Prof. David Crandall](https://homes.luddy.indiana.edu/djcran/). I am majoring in [Computer Science](https://cs.indiana.edu/) with minor is Computer Science. Before joining Ph.D. program, I earned master's degree in [Data Science](https://datascience.indiana.edu/programs/residential/index.html) at Indiana University. My master's thesis is on ['Response-Based Knowledge Distillation'](https://vkvats.github.io/files/Vkvats_master_thesis.pdf). I have completed my Bachelor's degree in Electrical Engineering at National Institute of Technology, Patna [(NITP)](http://www.nitp.ac.in/php/home.php). [(Résumé)](https://vkvats.github.io/files/VibhasVats-resume-public.pdf).  
+I am a first year Ph.D. student at [Indiana University Bloomington](https://www.indiana.edu/). I work in [Computer Vision Lab](http://vision.soic.indiana.edu/) with [Prof. David Crandall](https://homes.luddy.indiana.edu/djcran/). I am majoring in [Computer Science](https://cs.indiana.edu/) with minor in Computer Science. Before joining the Ph.D. program, I earned master's degree in [Data Science](https://datascience.indiana.edu/programs/residential/index.html) at Indiana University with a thesis on ['Response-Based Knowledge Distillation'](https://vkvats.github.io/files/Vkvats_master_thesis.pdf). I completed Bachelor's degree in Electrical Engineering at National Institute of Technology, Patna [(NITP)](http://www.nitp.ac.in/php/home.php). [(Résumé)](https://vkvats.github.io/files/VibhasVats-resume-public.pdf).  
 
 Research Interests
 ------
