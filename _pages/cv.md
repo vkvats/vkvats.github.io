@@ -44,6 +44,8 @@ Research Experience
 * **Master’s Thesis** on “Response-based Knowledge Distillation”: Aug 2020 – May 2021
   * Analyze the knowledge distillation process and proposed the soft-label hypothesis to explain the behavior of distillation process. 
   * Proposed special consideration for pre-training teacher models for retaining similarity information in soft-labels for better knowledge distillation.
+  * A condensed version of the thesis was published at AAAI-2022 workshop
+
 
 * **External Research Fellow**, NIT Patna (Electrical Engineering Lab) : *July 2018 – June 2019* 
   * Project title: “Sustainable Smart Grid Framework for Energy Management System Incorporating Available Renewable Resources.” funded by the Science & Engineering Research Board, Government of India.
@@ -62,8 +64,10 @@ Publications
 Work Experience
 ------
 * **Course Development and Instructor** – Computer Vision Paper Discussion Section, Indiana University: *Jan 2021 – May 2021*
-  * Hold weekly office hours on Zoom to work one-on-one with graduate and undergraduate students.
-  * Manage and help more than 80 graduate students with their doubts on Piazza.
+  * Designed and was the instructor of paper discussion section, first of its kind at IU, in computer vision course
+  * Lead the discussion of DL based seminal papers covering development of CNNs, Transformers and MLP based models
+  * Received Associate Instructor of the year award, 2021-2022 for my distinguished contribution in this course
+
 * **Associate Instructor**, Indiana University                                                    
   * Computer Vision: *Spring 2021*
   * Elements of Artificial Intelligence: *Fall 2020, Spring 2021*
