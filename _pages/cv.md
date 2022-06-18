@@ -29,12 +29,22 @@ Education
 
 Research Experience
 ------
-* **Master’s Thesis** on “Response-based Knowledge Distillation” : *Aug 2020 – May 2021*
+* **Research Assistant**, Indiana University Computer Vision lab                                                                         
+  * Deep Learning (DL) - Case Based Reasoning (CBR) survey paper: June 2020 – Present
+    * Collaborated with DL-CBR research group in writing two sections of the survey paper- retrieval and DL models with memory.
+  * Exploring Accuracy and Explainability of DL-CBR Hybrid Architectures: Jan 2022 – Present
+    * Exploring hybrid system leveraging knowledge-engineered and network learned feature in concert.
+    * Analyzing different DL architectures to study the impact of learned features in the DL-CBR hybrid system.
+  * Multi-View Stereo (MVS) Method for High-resolution Depth-map Prediction and Point Cloud Generation: Aug 2021 – Present
+    * Improving the application of MVS algorithm for high-resolution depth map prediction
+    * Applying MVS algorithm at multiple stages of DL architecture to improve the accuracy and completeness of 3D point cloud
+  * Roof-area Segmentation and Orientation Detection: Aug 2021 – Present
+    * Detection of roof orientation and plane area on 3D point clouds data by applying RANSAC algorithm 
+    * Improving roof segmentation and orientation detection using satellite images  
+* **Master’s Thesis** on “Response-based Knowledge Distillation”: Aug 2020 – May 2021
   * Analyze the knowledge distillation process and proposed the soft-label hypothesis to explain the behavior of distillation process. 
   * Proposed special consideration for pre-training teacher models for retaining similarity information in soft-labels for better knowledge distillation.
-* **Research Assistant**, Indiana University (IU Computer Vision lab) : *June 2020 – May 2021*
-  * Deep Learning (DL) - Case Based Reasoning (CBR) survey paper:
-  * Collaborated with DL-CBR research group in writing two sections of the survey paper- retrieval and DL models with memory.
+
 * **External Research Fellow**, NIT Patna (Electrical Engineering Lab) : *July 2018 – June 2019* 
   * Project title: “Sustainable Smart Grid Framework for Energy Management System Incorporating Available Renewable Resources.” funded by the Science & Engineering Research Board, Government of India.
   * Successfully conceptualized and implemented a model to mitigate the Communication-link failure in smart meter-based load forecasting system using various classification methods.
