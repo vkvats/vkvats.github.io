@@ -1,7 +1,7 @@
 ---
 title: 'Upcoming Blog Post'
 date: 2022-08-01
-permalink: /posts/2012/08/blog-post-4/
+permalink: /posts/blog-post/
 tags:
   - Deep Learning(DL)
   - History of Deep Learning
