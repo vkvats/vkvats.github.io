@@ -1,7 +1,7 @@
 ---
 title: "Examining the Impact of Network Architecture on Extracted Feature Quality for CBR"
 collection: ICCBR 2023
-permalink: /publication/iccbr.md
+permalink: /publication/iccbr23.md
 excerpt: 'This paper explores the integration of CBR system with DL models.'
 date: 2023-7-24
 venue: 'ICCBR-23'
