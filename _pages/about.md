@@ -36,7 +36,7 @@ Publications
 
 * Vibhas Vats, Sripad Joshi, David Crandall, Md. Reza, Soon-Heung Jung, "GC-MVSNet: Multi-View, Multi-Scale, Geometrically-Consistent Multi-View Stereo", Accepted - WACV 2024 [(Paper)](https://vkvats.github.io/files/gc-mvsnet-WACV24.pdf)
 * Zachary Wilkerson, Vibhas Vats, Karan Acharya, David Leake, David Crandall, "Examining the Impact of Network Architecture on Extracted Feature Quality for CBR" ICCBR-2023 [(Paper)](http://vision.soic.indiana.edu/papers/examining2023iccbr.pdf)
-* Vibhas Vats, David Crandall (2021). "Controlling the Quality of Distillation in Response-Based Network Compression." AAAI-22. 1-8. [(arXiv)](https://arxiv.org/abs/2112.10047)
+* Vibhas Vats, David Crandall (2021). "Controlling the Quality of Distillation in Response-Based Network Compression." AAAI-22. 1-8. [(Paper)](https://arxiv.org/abs/2112.10047)
 * VK Vats, S Rai, S De, M De (2018). "Mitigating Effect of Communication Link Failure in Smart Meter-Based Load Forecasting." Springer. 289-300. [(Paper)](https://vkvats.github.io/publication/mitigating-springer-singapore-2018)
 * VK Vats, S Rai, D Bharti, Mala De. (2018). "Very Short-term, Short-Term and Mid-Term Load Forecasting for Residential Academic Institute: A Case Study." IEEE. 1-6. [(Paper)](https://vkvats.github.io/files/paper1.pdf)
 
