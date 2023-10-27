@@ -1,5 +1,5 @@
 ---
-title: "Controlling the Quality of Distillation in Response-Based Network Compression"
+title: "Controlling the Quality of Distillation in Response-Based Network Compression, AAAI-2021 Workshop"
 collection: AAAI-22 conference workshop
 permalink: /publication/knowledge_distillation_AAAI-2022
 excerpt: 'This paper delves deep into the theory of knowledge distillation in a teach-student pair network and discusses ways to perform better distillation to student network.'
