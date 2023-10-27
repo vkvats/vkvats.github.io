@@ -1,4 +1,4 @@
-able# Welcome to Jekyll!
+# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Vibhas Vats"
   avatar           : "profile.png"
-  bio              : "Computer Science Ph.D student at Indiana University"
+  bio              : "Ph.D student at Indiana University"
   location         : "Bloomington, IN"
   employer         :
   pubmed           : 
@@ -109,9 +109,9 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          : "https://twitter.com/VatsVibhas"
   vine             :
-  weibo            : 
+  weibo            :
   xing             :
   youtube          :
   wikipedia        :
