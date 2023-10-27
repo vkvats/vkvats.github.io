@@ -6,7 +6,7 @@ excerpt: 'This paper delves deep into the theory of knowledge distillation in a 
 date: 2021-12-19
 venue: 'AAAI-22'
 paperurl: 
-citation: 'Vibhas Vats, David Crandall (2021).  &quot;Controlling the Quality of Distillation in Response-Based Network Compression.&quot; <i>AAAI-22</i>. 1-8.' 
+citation:  
 ---
 Index terms: Knowledge Distillation, Response-Based Model Compression, Distillation Hypothesis, Teacher-Student Learning.
 
