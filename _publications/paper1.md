@@ -6,7 +6,7 @@ excerpt: 'This paper is about using data driven approach to forecast electrical 
 date: 2018-11-03
 venue: 'IEEE Xplore'
 paperurl: 
-citation: 'VK Vats, S Rai, D Bharti, Mala De. (2018).  &quot;Very Short-term, Short-Term and Mid-Term Load Forecasting for Residential Academic Institure: A Case Study.&quot; <i>IEEE</i>. 1-6.' 
+citation:  
 ---
 This paper is a case study for using data-driven load forecasting model.
 
