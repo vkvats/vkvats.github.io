@@ -32,15 +32,19 @@ I am co-teaching Computer Vision (CSCI-B 657) with my advisor every Spring since
 
 Publications
 ------
-**Master's Thesis**
-* Response-Based Knowledge Distillation. [(pdf)](https://vkvats.github.io/files/Vkvats_master_thesis.pdf)
-
 **Peer-reviewed Papers**
 
-* Zachary Wilkerson, Vibhas Vats, Karan Acharya, David Leake, David Crandall, "Examining the Impact of Network Architecture on Extracted Feature Quality for CBR. [pdf](http://vision.soic.indiana.edu/papers/examining2023iccbr.pdf)
+* Zachary Wilkerson, Vibhas Vats, Karan Acharya, David Leake, David Crandall, "Examining the Impact of Network Architecture on Extracted Feature Quality for CBR" ICCBR-2023 [pdf](http://vision.soic.indiana.edu/papers/examining2023iccbr.pdf)
 * Vibhas Vats, David Crandall (2021). "Controlling the Quality of Distillation in Response-Based Network Compression." AAAI-22. 1-8. [(arXiv)](https://arxiv.org/abs/2112.10047)
 * VK Vats, S Rai, S De, M De (2018). "Mitigating Effect of Communication Link Failure in Smart Meter-Based Load Forecasting." Springer. 289-300. [(pdf)](https://vkvats.github.io/publication/mitigating-springer-singapore-2018)
 * VK Vats, S Rai, D Bharti, Mala De. (2018). "Very Short-term, Short-Term and Mid-Term Load Forecasting for Residential Academic Institute: A Case Study." IEEE. 1-6. [(pdf)](https://vkvats.github.io/files/paper1.pdf)
+
+**Patents**
+------
+* Soon-Heung Jung, David Crandall, Vibhas Kumar Vats, Shaurya Shubham, Md Alimoor Reza, Chuhua Wang, "Method and Apparatus for Estimating Depth Information of Images", USA [Google Patents link](https://patents.google.com/patent/US20230326051A1/en)
+
+**Master's Thesis**
+* Response-Based Knowledge Distillation. [(pdf)](https://vkvats.github.io/files/Vkvats_master_thesis.pdf)
 
 Please see my [Google Scholar Profile](https://scholar.google.com/citations?user=aRoPd9gAAAAJ&hl=en&authuser=5)
 
