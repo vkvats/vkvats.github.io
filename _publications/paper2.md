@@ -6,7 +6,7 @@ excerpt: 'This paper uses machine learning techniques to mitigate the effect of 
 date: 2018-11-03
 venue: 'Springer, Singapore'
 paperurl: 
-citation: 'VK Vats, S Rai, S De, M De  (2018). &quot;Mitigating Effect of Communication Link Failure in Smart Meter-Based Load Forecasting.&quot; <i>Springer</i>. 289-300.'
+citation: 
 ---
 
 [Download paper here](http://vkvats.github.io/files/paper2.pdf)
