@@ -10,7 +10,7 @@ citation: 'Vibhas Vats, Sripad Joshi, David Crandall, Md. Reza, Soon-Heung Jung,
 ---
 Index terms: Multi-View Stereo, Geometric Consistency, 3D Reconstruction.
 
-[Download paper here]((https://vkvats.github.io/files/gc-mvsnet-WACV24.pdf))
+[Download paper here](https://vkvats.github.io/files/gc-mvsnet-WACV24.pdf)
 
 Abstract: Traditional multi-view stereo (MVS) methods rely heavily on
 photometric and geometric consistency constraints, but
