@@ -1,5 +1,5 @@
 ---
-title: "GC-MVSNet: Multi-View, Multi-Scale, Geometrically-Consistent Multi-View Stereo"
+title: "GC-MVSNet: Multi-View, Multi-Scale, Geometrically-Consistent Multi-View Stereo, WACV-2024"
 collection: WACV 2024
 permalink: /publication/gc-mvsnet
 excerpt: 'This paper explores the explicit modeling of geometric constraints in multi-view stereo systems.'
