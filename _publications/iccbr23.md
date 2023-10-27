@@ -5,7 +5,7 @@ permalink: /publication/Examining2023iccbr
 excerpt: 'This paper explores the integration of CBR system with DL models.'
 date: 2023-7-24
 venue: 'ICCBR-23'
-paperurl: 'http://vision.soic.indiana.edu/papers/examining2023iccbr.pdf'
+paperurl: 
 citation: 'Zachary Wilkerson, Vibhas Vats, Karan Acharya, David Leake, David Crandall, "Examining the Impact of Network Architecture on Extracted Feature Quality for CBR," ' 
 ---
 Index terms: Case based reasoning, Deep Learning, DL-CBR integration.
