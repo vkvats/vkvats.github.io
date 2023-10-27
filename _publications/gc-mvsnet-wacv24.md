@@ -2,11 +2,11 @@
 title: "GC-MVSNet: Multi-View, Multi-Scale, Geometrically-Consistent Multi-View Stereo"
 collection: WACV 2024
 permalink: /publication/gc-mvsnet
-excerpt: 'This paper explores the explicit modeling of geometric constrains in multi-view stereo systems.'
-date: 2023-10-26
-venue: 'WACV-24'
+excerpt: 'This paper explores the explicit modeling of geometric constraints in multi-view stereo systems.'
+date: 
+venue: 'Accepted @WACV-24'
 paperurl: 
-citation: 'Vibhas Vats, Sripad Joshi, David Crandall, Md. Reza, Soon-Heung Jung, “GC-MVSNet: Multi-View, Multi-Scale, Geometrically-Consistent Multi-View Stereo”, Accepted - WACV 2024 ' 
+citation: 
 ---
 Index terms: Multi-View Stereo, Geometric Consistency, 3D Reconstruction.
 
