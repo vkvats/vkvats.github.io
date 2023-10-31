@@ -10,7 +10,7 @@ citation:
 ---
 Index terms: Multi-View Stereo, Geometric Consistency, 3D Reconstruction.
 
-[Download paper here](https://vkvats.github.io/files/gc-mvsnet-WACV24.pdf)
+[Project page](https://vkvats.github.io/GCMVSNet-page/)
 
 Abstract: Traditional multi-view stereo (MVS) methods rely heavily on
 photometric and geometric consistency constraints, but
