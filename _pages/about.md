@@ -58,7 +58,7 @@ I co-teach Computer Vision (CSCI-B 657) with my advisor every Spring since 2022.
 
 [Spring 2022 discussion list](https://vkvats.github.io/files/B657-discussion-papers-Spring22.pdf) | [Slides](https://drive.google.com/drive/folders/1vEXb8_-DZn4HFVfo7bC_Q6CvqAJlRPCB?usp=sharing) | Videos
 [Spring 2023 discussion list](https://vkvats.github.io/files/B657-Discussion-Spring23.pdf) | [Slides](https://drive.google.com/drive/folders/1NM3sf78nHQWDuvTeW9pzujgO4wAFmvrE?usp=sharing) | Videos
-[Spring 2024 discussion list]() | [Slides]() | [Videos]()
+[Spring 2024 discussion list](https://vkvats.github.io/files/B657-Discussionpapers-Spring24.pdf) | [Slides](https://drive.google.com/drive/folders/1hPQx0gzOSjBbo-RJ1WNr5TegSNI1mOJI?usp=sharing) | [Videos]()
 
 **Preprints**
 
