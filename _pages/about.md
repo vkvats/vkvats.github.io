@@ -34,11 +34,12 @@ Publications
 * VK Vats, S Rai, S De, M De (2018). "Mitigating Effect of Communication Link Failure in Smart Meter-Based Load Forecasting." Springer. 289-300. [(Paper)](https://vkvats.github.io/publication/mitigating-springer-singapore-2018)
 * VK Vats, S Rai, D Bharti, Mala De. (2018). "Very Short-term, Short-Term and Mid-Term Load Forecasting for Residential Academic Institute: A Case Study." IEEE. 1-6. [(Paper)](https://vkvats.github.io/files/paper1.pdf)
 
-**Under-review**
-* Cuhua Wang, Md. Reza, Vibhas Vats, Y. Ju, N. Thankurdesai, Y. Wang, D. Crandall, J. Seo, Soon-Heung Jung, "Deep Learning-based 3D Reconstruction from Multiple Images: A Survey" Under-review Neurocomputing
-
 **PrePrint**
 * Vibhas Vats and David Crandall, "Geometric Constraints in Deep Learning Frameworks: A Survey" March-2024. [(Paper)](https://arxiv.org/abs/2403.12431)
+
+
+**Under-review**
+* Cuhua Wang, Md. Reza, Vibhas Vats, Y. Ju, N. Thankurdesai, Y. Wang, D. Crandall, J. Seo, Soon-Heung Jung, "Deep Learning-based 3D Reconstruction from Multiple Images: A Survey" Under-review Neurocomputing
 
 **Patents**
 ------
