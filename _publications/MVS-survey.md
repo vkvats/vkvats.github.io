@@ -1,9 +1,9 @@
 ---
-title: "Geometric Constraints in Deep Learning Frameworks: A Survey" Pre-print 2024
+title: "Geometric Constraints in Deep Learning Frameworks: A Survey, Pre-print 2024"
 collection: ArXiv- preprint 2024
 permalink: /publication/mvssurvey
 excerpt: 'This paper explores the explicit modeling of geometric constraints in multi-view stereo systems.'
-date:  2023-10-26
+date:  2024-3-20
 venue: 'preprint arXiv-24'
 paperurl: 
 citation: 
@@ -24,5 +24,3 @@ learning-based frameworks. We compare and contrast geometry enforcing constraint
 integrated into a deep learning framework for depth estimation or other closely related 
 problems. We present a new taxonomy for prevalent geometry enforcing constraints used 
 in modern deep learning frameworks. We also present insightful observations and potential future research directions.
-
-
