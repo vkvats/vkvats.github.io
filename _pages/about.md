@@ -27,7 +27,8 @@ Publications
 ------
 **Peer-reviewed Papers**
 
-* Vibhas Vats, Sripad Joshi, David Crandall, Md. Reza, Soon-Heung Jung, "GC-MVSNet: Multi-View, Multi-Scale, Geometrically-Consistent Multi-View Stereo", Accepted - WACV 2024 [(Project Page)](https://vkvats.github.io/GCMVSNet-page/)
+* Z. Wilkerson, Vibhas Vats, David Leake, David Crandall, "Extracting Indexing Features for CBR from Deep Neural Networks: A Transfer Learning Approach", Accepted - ICCBR 2024
+* Vibhas Vats, Sripad Joshi, David Crandall, Md. Reza, Soon-Heung Jung, "GC-MVSNet: Multi-View, Multi-Scale, Geometrically-Consistent Multi-View Stereo", WACV 2024 [(Project Page)](https://vkvats.github.io/GCMVSNet-page/)
 * Zachary Wilkerson, Vibhas Vats, Karan Acharya, David Leake, David Crandall, "Examining the Impact of Network Architecture on Extracted Feature Quality for CBR" ICCBR-2023 [(Paper)](http://vision.soic.indiana.edu/papers/examining2023iccbr.pdf)
 * Vibhas Vats, David Crandall (2021). "Controlling the Quality of Distillation in Response-Based Network Compression." AAAI-22. 1-8. [(Paper)](https://arxiv.org/abs/2112.10047)
 * VK Vats, S Rai, S De, M De (2018). "Mitigating Effect of Communication Link Failure in Smart Meter-Based Load Forecasting." Springer. 289-300. [(Paper)](https://vkvats.github.io/publication/mitigating-springer-singapore-2018)
@@ -35,6 +36,9 @@ Publications
 
 **Under-review**
 * Cuhua Wang, Md. Reza, Vibhas Vats, Y. Ju, N. Thankurdesai, Y. Wang, D. Crandall, J. Seo, Soon-Heung Jung, "Deep Learning-based 3D Reconstruction from Multiple Images: A Survey" Under-review Neurocomputing
+
+**PrePrint**
+* Vibhas Vats and David Crandall, "Geometric Constraints in Deep Learning Frameworks: A Survey" March-2024. [(Paper)](https://arxiv.org/abs/2403.12431)
 
 **Patents**
 ------
