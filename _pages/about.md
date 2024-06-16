@@ -28,8 +28,8 @@ Publications
 ------
 **Peer-reviewed Papers**
 
-* Cuhua Wang, Md. Reza, Vibhas Vats, Y. Ju, N. Thankurdesai, Y. Wang, D. Crandall, J. Seo, Soon-Heung Jung, "Deep Learning-based 3D Reconstruction from Multiple Images: A Survey", Neurocomputing 2024
-* Z. Wilkerson, Vibhas Vats, David Leake, David Crandall, "Extracting Indexing Features for CBR from Deep Neural Networks: A Transfer Learning Approach", ICCBR 2024
+* Cuhua Wang, Md. Reza, Vibhas Vats, Y. Ju, N. Thankurdesai, Y. Wang, D. Crandall, J. Seo, Soon-Heung Jung, "Deep Learning-based 3D Reconstruction from Multiple Images: A Survey", Neurocomputing 2024 [(Paper)](https://www.sciencedirect.com/science/article/abs/pii/S0925231224007896)
+* Z. Wilkerson, Vibhas Vats, David Leake, David Crandall, "Extracting Indexing Features for CBR from Deep Neural Networks: A Transfer Learning Approach", ICCBR 2024 [Paper](https://vision.soic.indiana.edu/papers/examining2023iccbr.pdf)
 * Vibhas Vats, Sripad Joshi, David Crandall, Md. Reza, Soon-Heung Jung, "GC-MVSNet: Multi-View, Multi-Scale, Geometrically-Consistent Multi-View Stereo", WACV 2024 [(Project Page)](https://vkvats.github.io/GCMVSNet-page/)
 * Zachary Wilkerson, Vibhas Vats, Karan Acharya, David Leake, David Crandall, "Examining the Impact of Network Architecture on Extracted Feature Quality for CBR" ICCBR-2023 [(Paper)](http://vision.soic.indiana.edu/papers/examining2023iccbr.pdf)
 * Vibhas Vats, David Crandall (2021). "Controlling the Quality of Distillation in Response-Based Network Compression." AAAI-22. 1-8. [(Paper)](https://arxiv.org/abs/2112.10047)
@@ -37,7 +37,7 @@ Publications
 * VK Vats, S Rai, D Bharti, Mala De. (2018). "Very Short-term, Short-Term and Mid-Term Load Forecasting for Residential Academic Institute: A Case Study." IEEE. 1-6. [(Paper)](https://vkvats.github.io/files/paper1.pdf)
 
 **PrePrint**
-* Vibhas Vats and David Crandall, "Geometric Constraints in Deep Learning Frameworks: A Survey" March-2024. [(Paper)](https://arxiv.org/abs/2403.12431)
+* Vibhas Vats and David Crandall, "Geometric Constraints in Deep Learning Frameworks: A Survey" 2024. [(Paper)](https://arxiv.org/abs/2403.12431)
 
 
 **Under-review**
