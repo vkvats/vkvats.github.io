@@ -5,7 +5,7 @@ permalink: /publication/3d-survey
 excerpt: 'A survey paper on multi-view 3D reconstruction methods.'
 date:  2024-06-10
 venue: 'Published @Elsevier'
-paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0925231224007896
+paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0925231224007896'
 citation: 
 ---
 Index terms: Multi-View Stereo, Geometric Consistency, 3D Reconstruction. Survey
