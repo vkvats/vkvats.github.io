@@ -21,13 +21,15 @@ Research Interests
 * 3D reconstruction with learning-based Multi-View Stereo
 * Geometrical reasoning of 3D scenes
 * Deep Learning and Case-Based Reasoning (DL-CBR) integration
-* Deep Learning - Architectural understanding and exploration 
+* Deep Learning - Architectural understanding and exploration
+* Generative models for geospatial images.
 
 Publications
 ------
 **Peer-reviewed Papers**
 
-* Z. Wilkerson, Vibhas Vats, David Leake, David Crandall, "Extracting Indexing Features for CBR from Deep Neural Networks: A Transfer Learning Approach", Accepted - ICCBR 2024
+* Cuhua Wang, Md. Reza, Vibhas Vats, Y. Ju, N. Thankurdesai, Y. Wang, D. Crandall, J. Seo, Soon-Heung Jung, "Deep Learning-based 3D Reconstruction from Multiple Images: A Survey", Neurocomputing 2024
+* Z. Wilkerson, Vibhas Vats, David Leake, David Crandall, "Extracting Indexing Features for CBR from Deep Neural Networks: A Transfer Learning Approach", ICCBR 2024
 * Vibhas Vats, Sripad Joshi, David Crandall, Md. Reza, Soon-Heung Jung, "GC-MVSNet: Multi-View, Multi-Scale, Geometrically-Consistent Multi-View Stereo", WACV 2024 [(Project Page)](https://vkvats.github.io/GCMVSNet-page/)
 * Zachary Wilkerson, Vibhas Vats, Karan Acharya, David Leake, David Crandall, "Examining the Impact of Network Architecture on Extracted Feature Quality for CBR" ICCBR-2023 [(Paper)](http://vision.soic.indiana.edu/papers/examining2023iccbr.pdf)
 * Vibhas Vats, David Crandall (2021). "Controlling the Quality of Distillation in Response-Based Network Compression." AAAI-22. 1-8. [(Paper)](https://arxiv.org/abs/2112.10047)
@@ -39,7 +41,7 @@ Publications
 
 
 **Under-review**
-* Cuhua Wang, Md. Reza, Vibhas Vats, Y. Ju, N. Thankurdesai, Y. Wang, D. Crandall, J. Seo, Soon-Heung Jung, "Deep Learning-based 3D Reconstruction from Multiple Images: A Survey" Under-review Neurocomputing
+* Vibhas Vats and D. Crandall, "Geometric Constraints in Deep Learning Frameworks: A Survey" Under-review ACM-surveys
 
 **Patents**
 ------
@@ -75,4 +77,4 @@ Service
 
 Fun
 ------
-I run for fun :). Find me on the Nike Run Club (@Vibhas_Vats).
+I run for fun :). Find me on the Nike Run Club (@Vibhas_Vats). Hiking, driving, reading, and writing are calming things to do. 
