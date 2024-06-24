@@ -17,6 +17,7 @@ I am a Ph.D. candidate at [Indiana University Bloomington](https://www.indiana.e
 
 Research Interests
 ------
+my research involves developing and applying computer vision algorithms that understand, analyze, and organize large-scale datasets of images and video using deep learning-based techniques. My recent focus has been on creating computer vision algorithms that can generate and synthesize 3D models of visual scenes from 2D images, using techniques such as multi-view stereo, stable diffusion, and other deep learning models
 
 * 3D reconstruction with learning-based Multi-View Stereo
 * Geometrical reasoning of 3D scenes
@@ -70,9 +71,11 @@ Preprints are available on [arXiv](https://arxiv.org/a/vats_v_1.html)
 Service
 ------
 
-**Conference Program Committee / Reviewer**
+**Reviewer @**
 
-* International Conference on Intelligence Science (ICIS) - 2022
+* International Conference on Intelligence Science (ICIS)
+* IEEE transactions on pattern analysis and machine intelligence
+* IET image processing 
 
 
 Fun
