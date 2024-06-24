@@ -13,11 +13,11 @@ About me
 
 I am a Ph.D. candidate at [Indiana University Bloomington](https://www.indiana.edu/). I work in [Computer Vision Lab](http://vision.soic.indiana.edu/) with [Prof. David Crandall](https://homes.luddy.indiana.edu/djcran/). I am majoring in [Computer Science](https://cs.indiana.edu/) with a minor in Machine Learning. Before joining the Ph.D. program, I earned a master's degree in [Data Science](https://datascience.indiana.edu/programs/residential/index.html) at Indiana University with a thesis on ['Response-Based Knowledge Distillation'](https://vkvats.github.io/files/Vkvats_master_thesis.pdf). I completed a Bachelor's degree in Electrical Engineering at the National Institute of Technology, Patna [(NITP)](http://www.nitp.ac.in/php/home.php). 
 
-[(Résumé-long)](https://vkvats.github.io/files/VibhasVats-resume-public.pdf).  
+[(Résumé)](https://vkvats.github.io/files/VibhasVats-resume-public.pdf).  
 
 Research Interests
 ------
-my research involves developing and applying computer vision algorithms that understand, analyze, and organize large-scale datasets of images and video using deep learning-based techniques. My recent focus has been on creating computer vision algorithms that can generate and synthesize 3D models of visual scenes from 2D images, using techniques such as multi-view stereo, stable diffusion, and other deep learning models
+My research involves developing and applying computer vision algorithms that understand, analyze, and organize large-scale datasets of images and video using deep learning-based techniques. My recent focus has been on creating computer vision algorithms that can generate and synthesize 3D models of visual scenes from 2D images, using techniques such as multi-view stereo, stable diffusion, and other deep learning models
 
 * 3D reconstruction with learning-based Multi-View Stereo
 * Geometrical reasoning of 3D scenes
@@ -37,12 +37,13 @@ Publications
 * VK Vats, S Rai, S De, M De (2018). "Mitigating Effect of Communication Link Failure in Smart Meter-Based Load Forecasting." Springer. 289-300. [(Paper)](https://vkvats.github.io/publication/mitigating-springer-singapore-2018)
 * VK Vats, S Rai, D Bharti, Mala De. (2018). "Very Short-term, Short-Term and Mid-Term Load Forecasting for Residential Academic Institute: A Case Study." IEEE. 1-6. [(Paper)](https://vkvats.github.io/files/paper1.pdf)
 
-**PrePrint**
+**PrePrint / Under-review**
 * Vibhas Vats and David Crandall, "Geometric Constraints in Deep Learning Frameworks: A Survey" 2024. [(Paper)](https://arxiv.org/abs/2403.12431)
 
 
 **Under-review**
 * Vibhas Vats and D. Crandall, "Geometric Constraints in Deep Learning Frameworks: A Survey" Under-review ACM-surveys
+* Vibhas Vats, M. A. Reza, D. J. Crandall, and S.-h. Jung, Gc-mvsnet++: Improved multi-view, multi-scale, geometrically-consistent multi-view stereo with dense 3d-regularizer
 
 **Patents**
 ------
