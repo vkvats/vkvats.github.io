@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Vibhas Vats"
 title_separator          : "-"
-name                     : &name "Vibhas Vats"
+name                     : &name "Vibhas K Vats"
 description              : &description "Computer Vision researcher at Indiana University Bloomington"
 url                      : https://vkvats.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -83,7 +83,7 @@ author:
   name             : "Vibhas Vats"
   avatar           : "profile.png"
   bio              : "Computer Science Ph.D candidate at Indiana University"
-  location         : "Bloomington, IN"
+  location         : 
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=aRoPd9gAAAAJ&hl=en&authuser=1"
