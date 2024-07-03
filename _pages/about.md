@@ -1,15 +1,12 @@
 ---
 permalink: /
-title: "Vibhas Kumar Vats"
+title: "About"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-About me
-------
 
 I am a Ph.D. candidate at [Indiana University Bloomington](https://www.indiana.edu/). I work in [Computer Vision Lab](http://vision.soic.indiana.edu/) with [Prof. David Crandall](https://homes.luddy.indiana.edu/djcran/). I am majoring in [Computer Science](https://cs.indiana.edu/) with a minor in Machine Learning. Before joining the Ph.D. program, I earned a master's degree in [Data Science](https://datascience.indiana.edu/programs/residential/index.html) at Indiana University with a thesis on ['Response-Based Knowledge Distillation'](https://vkvats.github.io/files/Vkvats_master_thesis.pdf). I completed a Bachelor's degree in Electrical Engineering at the National Institute of Technology, Patna [(NITP)](http://www.nitp.ac.in/php/home.php). 
 
