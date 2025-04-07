@@ -4,7 +4,7 @@ collection: ACM Surveys, 2025
 permalink: /publication/mvssurvey
 excerpt: 'This paper explores the explicit modeling of geometric constraints in Deep Learning frameworks centered around depth estimation and stereo problems.'
 date:  2025-4-01
-venue: 'ACM Surveys 2025'
+venue: 'Accepted - ACM Surveys 2025'
 paperurl: 
 citation: 
 ---
