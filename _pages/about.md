@@ -24,12 +24,12 @@ My research involves developing and applying computer vision algorithms that und
 
 Publications
 ------
-**Journal Papers**
+**Journal Articles**
 
 * Vibhas Vats and D. Crandall, "Geometric Constraints in Deep Learning Frameworks: A Survey" Just Accepted at ACM-surveys, 2025. [(PrePrint)](https://arxiv.org/abs/2403.12431)
 * Cuhua Wang, Md. Reza, Vibhas Vats, Y. Ju, N. Thankurdesai, Y. Wang, D. Crandall, J. Seo, Soon-Heung Jung, "Deep Learning-based 3D Reconstruction from Multiple Images: A Survey", Neurocomputing 2024 [(Paper)](https://www.sciencedirect.com/science/article/abs/pii/S0925231224007896)
 
-**Conference Papers**
+**Conference Proceedings**
 
 * Vibhas Kumar Vats and Z. Wilkerson and H. Sato and David Leake  and David Crandall,"Learning Case Features with Proxy-Guided Deep Neural Networks", Accepted at ICCBR 2025 
 * Vibhas Vats, Sripad Joshi, David Crandall, Md. Reza, Soon-Heung Jung, "GC-MVSNet: Multi-View, Multi-Scale, Geometrically-Consistent Multi-View Stereo", WACV 2024 [(Project Page)](https://vkvats.github.io/GCMVSNet-page/)
@@ -39,12 +39,14 @@ Publications
 * VK Vats, S Rai, S De, M De (2018). "Mitigating Effect of Communication Link Failure in Smart Meter-Based Load Forecasting." Springer. 289-300. [(Paper)](https://vkvats.github.io/publication/mitigating-springer-singapore-2018)
 * VK Vats, S Rai, D Bharti, Mala De. (2018). "Very Short-term, Short-Term and Mid-Term Load Forecasting for Residential Academic Institute: A Case Study." IEEE. 1-6. [(Paper)](https://vkvats.github.io/files/paper1.pdf)
 
-**PrePrint (ArXiv)**
+**PrePrint**
 * Vibhas Vats and David Crandall, "Geometric Constraints in Deep Learning Frameworks: A Survey" 2024. [(Paper)](https://arxiv.org/abs/2403.12431)
 
 
 **Under-review**
 * Vibhas Vats, M. A. Reza, D. J. Crandall, and S.-h. Jung, Gc-mvsnet++: Improved multi-view, multi-scale, geometrically-consistent multi-view stereo with dense 3d-regularizer
+* Tony Ha, V. K. Vats, M. A. R. Soon-heung Jung, and D. Crandall, "Hvpunet: Hybrid-voxel point-cloud unsampling network"
+(under review - iccv), 2025.
 
 **Patents**
 ------
