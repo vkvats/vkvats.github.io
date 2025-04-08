@@ -44,9 +44,9 @@ Publications
 
 
 **Under-review**
-* Vibhas Vats, M. A. Reza, D. J. Crandall, and S.-h. Jung, Gc-mvsnet++: Improved multi-view, multi-scale, geometrically-consistent multi-view stereo with dense 3d-regularizer
+* Vibhas Vats, M. A. Reza, D. J. Crandall, and S.-h. Jung, "Blending 3D Geometry and Machine Learning for Multi-View Stereopsis" (Under review - TPAMI), Nov-2024.
 * Tony Ha, V. K. Vats, M. A. R. Soon-heung Jung, and D. Crandall, "Hvpunet: Hybrid-voxel point-cloud unsampling network"
-(under review - iccv), 2025.
+(under review - ICCV), 2025.
 
 **Patents**
 ------
