@@ -26,7 +26,7 @@ Publications
 ------
 **Journal Articles**
 
-* Vibhas Vats and D. Crandall, "Geometric Constraints in Deep Learning Frameworks: A Survey" Just Accepted at ACM-surveys, 2025. [(PrePrint)](https://arxiv.org/abs/2403.12431)
+* Vibhas Vats and D. Crandall, "Geometric Constraints in Deep Learning Frameworks: A Survey" Just Accepted at ACM-surveys, 2025. [ACM-paper](https://doi.org/10.1145/3729221) [(PrePrint)](https://arxiv.org/abs/2403.12431)
 * Cuhua Wang, Md. Reza, Vibhas Vats, Y. Ju, N. Thankurdesai, Y. Wang, D. Crandall, J. Seo, Soon-Heung Jung, "Deep Learning-based 3D Reconstruction from Multiple Images: A Survey", Neurocomputing 2024 [(Paper)](https://www.sciencedirect.com/science/article/abs/pii/S0925231224007896)
 
 **Conference Proceedings**
