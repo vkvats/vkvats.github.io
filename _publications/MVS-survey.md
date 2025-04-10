@@ -5,12 +5,12 @@ permalink: /publication/mvssurvey
 excerpt: 'This paper explores the explicit modeling of geometric constraints in Deep Learning frameworks centered around depth estimation and stereo problems.'
 date:  2025-4-01
 venue: 'Accepted - ACM Surveys'
-paperurl: 
+paperurl: 'https://doi.org/10.1145/3729221'
 citation: 
 ---
 Index terms: Multi-view Stereo, Geometric Constraints, 3D Reconstruction, Depth Estimation, Geometric Learning, 3D Geometry, Stereo, Scene Understanding, Geometry-based Deep Learning
 
-[Pre-Print](https://arxiv.org/abs/2403.12431)
+[Paper](https://doi.org/10.1145/3729221)
 
 Abstract: Stereophotogrammetry is an established technique for scene understanding. 
     Its origins go back to at least the 1800s when people first started to investigate 
