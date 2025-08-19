@@ -32,6 +32,7 @@ Publications
 
 **Conference Proceedings**
 
+* D. Varshney, Vibhas Vats, B. Pandey, C. Brelsford and Philipe Dias, "Geospatial Diffusion for Land Cover Imperviousness Change Forecasting", SIGSPATIAL, 2025 [Extended-Version](https://arxiv.org/abs/2508.10649) [Short-paper]()
 * Tony Ha, V. K. Vats, M. A. R. Soon-heung Jung, and D. Crandall, "Hvpunet: Hybrid-voxel point-cloud unsampling network" ICCV, 2025.
 * Vibhas Kumar Vats and Z. Wilkerson and H. Sato and David Leake  and David Crandall,"Learning Case Features with Proxy-Guided Deep Neural Networks", Accepted at ICCBR 2025 
 * Vibhas Vats, Sripad Joshi, David Crandall, Md. Reza, Soon-Heung Jung, "GC-MVSNet: Multi-View, Multi-Scale, Geometrically-Consistent Multi-View Stereo", WACV 2024 [(Project Page)](https://vkvats.github.io/GCMVSNet-page/)
