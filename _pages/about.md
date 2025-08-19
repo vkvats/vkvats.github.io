@@ -26,24 +26,21 @@ Publications
 ------
 **Journal Articles**
 
-* Vibhas Vats, M. A. Reza, D.J.Crandall and S.-h. Jung, "Blending 3D Geometry and Machine Learning for Multi-View Stereopsis", Neurocomputing, 2025.
-* Vibhas Vats and D. Crandall, "Geometric Constraints in Deep Learning Frameworks: A Survey" ACM-surveys, 2025. [ACM-paper](https://doi.org/10.1145/3729221) [(PrePrint)](https://arxiv.org/abs/2403.12431)
+* Vibhas Vats, M. A. Reza, D.J.Crandall and S.-h. Jung, "Blending 3D Geometry and Machine Learning for Multi-View Stereopsis", Neurocomputing, 2025. [(PrePrint)](https://arxiv.org/abs/2505.03470v2) [Neurocomputing]()
+* Vibhas Vats and D. Crandall, "Geometric Constraints in Deep Learning Frameworks: A Survey" ACM-surveys, 2025. [ACM-paper](https://doi.org/10.1145/3729221) [(PrePrint)](https://arxiv.org/abs/2403.12431v2)
 * Cuhua Wang, Md. Reza, Vibhas Vats, Y. Ju, N. Thankurdesai, Y. Wang, D. Crandall, J. Seo, Soon-Heung Jung, "Deep Learning-based 3D Reconstruction from Multiple Images: A Survey", Neurocomputing 2024 [(Paper)](https://www.sciencedirect.com/science/article/abs/pii/S0925231224007896)
 
 **Conference Proceedings**
 
-* D. Varshney, Vibhas Vats, B. Pandey, C. Brelsford and Philipe Dias, "Geospatial Diffusion for Land Cover Imperviousness Change Forecasting", SIGSPATIAL, 2025 [Extended-Version](https://arxiv.org/abs/2508.10649)
+* D. Varshney, Vibhas Vats, B. Pandey, C. Brelsford and Philipe Dias, "Geospatial Diffusion for Land Cover Imperviousness Change Forecasting", SIGSPATIAL, 2025 [Extended-Version](https://arxiv.org/abs/2508.10649) [Short-paper]()
 * Tony Ha, V. K. Vats, M. A. R. Soon-heung Jung, and D. Crandall, "Hvpunet: Hybrid-voxel point-cloud unsampling network" ICCV, 2025.
-* Vibhas Kumar Vats and Z. Wilkerson and H. Sato and David Leake  and David Crandall,"Learning Case Features with Proxy-Guided Deep Neural Networks", Accepted at ICCBR 2025 
+* Vibhas Kumar Vats and Z. Wilkerson and H. Sato and David Leake  and David Crandall,"Learning Case Features with Proxy-Guided Deep Neural Networks", ICCBR 2025 [SpringerNature](https://link.springer.com/chapter/10.1007/978-3-031-96559-3_21)
 * Vibhas Vats, Sripad Joshi, David Crandall, Md. Reza, Soon-Heung Jung, "GC-MVSNet: Multi-View, Multi-Scale, Geometrically-Consistent Multi-View Stereo", WACV 2024 [(Project Page)](https://vkvats.github.io/GCMVSNet-page/)
 * Vibhas Vats, Zachary Wilkerson, David Leake, David Crandall, "Extracting Indexing Features for CBR from Deep Neural Networks: A Transfer Learning Approach", ICCBR 2024 [Paper](https://vision.soic.indiana.edu/papers/examining2023iccbr.pdf)
 * Zachary Wilkerson, Vibhas Vats, Karan Acharya, David Leake, David Crandall, "Examining the Impact of Network Architecture on Extracted Feature Quality for CBR" ICCBR-2023 [(Paper)](http://vision.soic.indiana.edu/papers/examining2023iccbr.pdf)
 * Vibhas Vats, David Crandall (2021). "Controlling the Quality of Distillation in Response-Based Network Compression." AAAI-22. 1-8. [(Paper)](https://arxiv.org/abs/2112.10047)
 * VK Vats, S Rai, S De, M De (2018). "Mitigating Effect of Communication Link Failure in Smart Meter-Based Load Forecasting." Springer. 289-300. [(Paper)](https://vkvats.github.io/publication/mitigating-springer-singapore-2018)
 * VK Vats, S Rai, D Bharti, Mala De. (2018). "Very Short-term, Short-Term and Mid-Term Load Forecasting for Residential Academic Institute: A Case Study." IEEE. 1-6. [(Paper)](https://vkvats.github.io/files/paper1.pdf)
-
-**PrePrint**
-* Vibhas Vats and David Crandall, "Geometric Constraints in Deep Learning Frameworks: A Survey" 2024. [(Paper)](https://arxiv.org/abs/2403.12431)
 
 
 **Patents**
