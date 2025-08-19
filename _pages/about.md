@@ -26,13 +26,13 @@ Publications
 ------
 **Journal Articles**
 
-* Vibhas Vats, M. A. Reza, D.J.Crandall, and S.-h. Jung, "Blending 3D Geometry and Machine Learning for Multi-View Stereopsis", Neurocomputing, 2025.
+* Vibhas Vats, M. A. Reza, D.J.Crandall and S.-h. Jung, "Blending 3D Geometry and Machine Learning for Multi-View Stereopsis", Neurocomputing, 2025.
 * Vibhas Vats and D. Crandall, "Geometric Constraints in Deep Learning Frameworks: A Survey" ACM-surveys, 2025. [ACM-paper](https://doi.org/10.1145/3729221) [(PrePrint)](https://arxiv.org/abs/2403.12431)
 * Cuhua Wang, Md. Reza, Vibhas Vats, Y. Ju, N. Thankurdesai, Y. Wang, D. Crandall, J. Seo, Soon-Heung Jung, "Deep Learning-based 3D Reconstruction from Multiple Images: A Survey", Neurocomputing 2024 [(Paper)](https://www.sciencedirect.com/science/article/abs/pii/S0925231224007896)
 
 **Conference Proceedings**
 
-* D. Varshney, Vibhas Vats, B. Pandey, C. Brelsford and Philipe Dias, "Geospatial Diffusion for Land Cover Imperviousness Change Forecasting", SIGSPATIAL, 2025 [Extended-Version](https://arxiv.org/abs/2508.10649) [Short-paper]()
+* D. Varshney, Vibhas Vats, B. Pandey, C. Brelsford and Philipe Dias, "Geospatial Diffusion for Land Cover Imperviousness Change Forecasting", SIGSPATIAL, 2025 [Extended-Version](https://arxiv.org/abs/2508.10649)
 * Tony Ha, V. K. Vats, M. A. R. Soon-heung Jung, and D. Crandall, "Hvpunet: Hybrid-voxel point-cloud unsampling network" ICCV, 2025.
 * Vibhas Kumar Vats and Z. Wilkerson and H. Sato and David Leake  and David Crandall,"Learning Case Features with Proxy-Guided Deep Neural Networks", Accepted at ICCBR 2025 
 * Vibhas Vats, Sripad Joshi, David Crandall, Md. Reza, Soon-Heung Jung, "GC-MVSNet: Multi-View, Multi-Scale, Geometrically-Consistent Multi-View Stereo", WACV 2024 [(Project Page)](https://vkvats.github.io/GCMVSNet-page/)
@@ -44,9 +44,6 @@ Publications
 
 **PrePrint**
 * Vibhas Vats and David Crandall, "Geometric Constraints in Deep Learning Frameworks: A Survey" 2024. [(Paper)](https://arxiv.org/abs/2403.12431)
-
-
-**Under-review**
 
 
 **Patents**
