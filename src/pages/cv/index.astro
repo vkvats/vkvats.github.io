@@ -3,8 +3,25 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout title="CV">
-  <h1 style="margin-top:0;">CV</h1>
-  <p style="color: var(--muted);">
-    Place your CV PDF at <code>/public/files/cv.pdf</code> and link it here later.
-  </p>
+  <div style="display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;">
+    <h1 style="margin:0;">CV</h1>
+    <a class="btn btn-primary" href="/files/cv.pdf" target="_blank" rel="noopener noreferrer">
+      Download CV (PDF)
+    </a>
+  </div>
+
+  <div style="height: 14px;"></div>
+
+  <section class="card" style="padding: 12px;">
+    <iframe
+      src="/files/cv.pdf"
+      title="CV PDF"
+      style="width: 100%; height: 82vh; border: 1px solid var(--border); border-radius: 12px; background: white;"
+    ></iframe>
+
+    <p style="margin: 10px 0 0 0; color: var(--muted); font-size: 14px;">
+      If the PDF doesn’t render in your browser, open it here:
+      <a href="/files/cv.pdf" target="_blank" rel="noopener noreferrer">cv.pdf</a>
+    </p>
+  </section>
 </BaseLayout>
