@@ -107,12 +107,12 @@ hr.sep {
    HOME overrides (only when BaseLayout uses bodyClass="home")
 -------------------------- */
 body.home {
-  background: #d2f7f8; /* home-only page background */
+  background: #daedf4; /* home-only page background */
 }
 
 /* home-only navbar background */
 body.home .site-nav {
-  background: #2ee5ec; /* home-only navbar background */
+  background: #97d3eb; /* home-only navbar background */
 }
 
 .site-nav-link {
