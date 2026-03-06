@@ -1,10 +1,18 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import ProjectCard from "../../components/ProjectCard.astro";
+
+const projects = await getCollection("projects");
 ---
 
 <BaseLayout title="Projects">
   <h1 style="margin-top:0;">Projects</h1>
-  <p style="color: var(--muted);">
-    Next step: projects will be cards generated from a single projects collection.
+  <p style="color: var(--muted); max-width: 72ch;">
+    Projects are generated from a single collection.
   </p>
+
+  <div class="grid grid-3">
+    {projects.map(p => <ProjectCard project={p} />)}
+  </div>
 </BaseLayout>

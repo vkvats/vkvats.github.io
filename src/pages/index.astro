@@ -1,5 +1,16 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import NewsList from "../components/NewsList.astro";
+import ProjectCard from "../components/ProjectCard.astro";
+import PubCard from "../components/PubCard.astro";
+
+const news = (await getCollection("news")).sort((a,b) => b.data.date.getTime() - a.data.date.getTime()).slice(0, 5);
+const projects = (await getCollection("projects")).slice(0, 3);
+const selectedPubs = (await getCollection("publications"))
+  .filter(p => p.data.selected)
+  .sort((a,b) => b.data.year - a.data.year)
+  .slice(0, 3);
 ---
 
 <BaseLayout title="Home">
@@ -23,9 +34,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   <section class="grid grid-2">
     <div class="card" style="padding: 16px;">
       <h2 style="margin:0 0 10px 0;">Recent news</h2>
-      <p style="margin:0; color: var(--muted);">
-        We’ll auto-populate this from content files in the next step.
-      </p>
+      <NewsList items={news} />
     </div>
 
     <div class="card" style="padding: 16px;">
@@ -44,10 +53,19 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
   <hr class="sep" />
 
-  <section class="card" style="padding: 16px;">
-    <h2 style="margin:0 0 10px 0;">Next</h2>
-    <p style="margin:0; color: var(--muted);">
-      Next we’ll add “content collections” so Publications/Projects/News/Work are all controlled from a single place.
-    </p>
-  </section>
+  <h2 style="margin: 0 0 12px 0;">Featured projects</h2>
+  <div class="grid grid-3">
+    {projects.map(p => <ProjectCard project={p} />)}
+  </div>
+
+  <div style="height: 18px;"></div>
+
+  <h2 style="margin: 0 0 12px 0;">Selected publications</h2>
+  <div class="grid" style="gap: 12px;">
+    {selectedPubs.map(p => <PubCard pub={p} />)}
+  </div>
+
+  <div style="margin-top: 12px;">
+    <a class="btn" href="/publications">All publications →</a>
+  </div>
 </BaseLayout>

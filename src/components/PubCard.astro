@@ -1,0 +1,20 @@
+---
+import LinkBar from "./LinkBar.astro";
+import TagPills from "./TagPills.astro";
+
+const { pub } = Astro.props as { pub: any };
+---
+
+<div class="card" style="padding: 16px;">
+  <div style="display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap;">
+    <div style="font-weight: 750; font-size: 16px;">{pub.data.title}</div>
+    <div style="color: var(--muted); font-weight: 650;">{pub.data.year}</div>
+  </div>
+
+  <div style="margin-top: 6px; color: var(--muted);">
+    {pub.data.authors}{pub.data.venue ? ` • ${pub.data.venue}` : ""}
+  </div>
+
+  {pub.data.tags?.length ? <TagPills tags={pub.data.tags} /> : null}
+  <LinkBar links={pub.data.links} />
+</div>

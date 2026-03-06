@@ -1,0 +1,20 @@
+---
+const { items } = Astro.props as { items: any[] };
+---
+
+<ul style="list-style:none; padding:0; margin:0;">
+  {items.map(n => (
+    <li style="padding: 10px 0; border-top: 1px solid var(--border);">
+      <div style="color: var(--muted); font-size: 13px;">
+        {n.data.date.toISOString().slice(0,10)}
+      </div>
+      <div style="font-weight: 650;">
+        {n.data.link ? (
+          <a href={n.data.link} target="_blank" rel="noopener noreferrer">{n.data.title}</a>
+        ) : (
+          n.data.title
+        )}
+      </div>
+    </li>
+  ))}
+</ul>

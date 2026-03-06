@@ -1,0 +1,43 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import LinkBar from "../../components/LinkBar.astro";
+import TagPills from "../../components/TagPills.astro";
+import PubCard from "../../components/PubCard.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const items = await getCollection("projects");
+  return items.map((item) => ({ params: { slug: item.slug }, props: { item } }));
+}
+
+const { item } = Astro.props;
+const { Content } = await item.render();
+
+const pubs = await getCollection("publications");
+const related = pubs.filter(p => item.data.relatedPublications?.includes(p.slug));
+---
+
+<BaseLayout title={item.data.title}>
+  <section class="card" style="padding: 16px;">
+    <h1 style="margin:0;">{item.data.title}</h1>
+    {item.data.tagline ? <p style="color: var(--muted); margin-top: 8px;">{item.data.tagline}</p> : null}
+    {item.data.tags?.length ? <TagPills tags={item.data.tags} /> : null}
+    <LinkBar links={item.data.links} />
+  </section>
+
+  <div style="height: 14px;"></div>
+
+  <section class="card" style="padding: 16px;">
+    <Content />
+  </section>
+
+  {related.length ? (
+    <>
+      <hr class="sep" />
+      <h2 style="margin:0 0 12px 0;">Related publications</h2>
+      <div class="grid" style="gap: 12px;">
+        {related.map(p => <PubCard pub={p} />)}
+      </div>
+    </>
+  ) : null}
+</BaseLayout>

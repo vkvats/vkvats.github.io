@@ -1,10 +1,43 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import PubCard from "../../components/PubCard.astro";
+import scholar from "../../data/scholar.json";
+import { getCollection } from "astro:content";
+
+const pubs = (await getCollection("publications")).sort((a,b) => b.data.year - a.data.year);
 ---
 
 <BaseLayout title="Publications">
-  <h1 style="margin-top:0;">Publications</h1>
-  <p style="color: var(--muted);">
-    Next step: render this from a single publications collection + show Scholar stats.
-  </p>
+  <section class="card" style="padding: 16px;">
+    <h1 style="margin:0;">Publications</h1>
+    <p style="margin: 8px 0 0 0; color: var(--muted);">
+      Publications are generated from a single collection.
+    </p>
+
+    <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top: 14px;">
+      <div class="card" style="padding: 12px; box-shadow:none;">
+        <div style="color: var(--muted); font-size: 13px;">Citations</div>
+        <div style="font-weight: 850; font-size: 20px;">{scholar.citations}</div>
+      </div>
+      <div class="card" style="padding: 12px; box-shadow:none;">
+        <div style="color: var(--muted); font-size: 13px;">h-index</div>
+        <div style="font-weight: 850; font-size: 20px;">{scholar.h_index}</div>
+      </div>
+      <div class="card" style="padding: 12px; box-shadow:none;">
+        <div style="color: var(--muted); font-size: 13px;">i10-index</div>
+        <div style="font-weight: 850; font-size: 20px;">{scholar.i10_index}</div>
+      </div>
+      <div style="align-self:end; color: var(--muted); font-size: 13px;">
+        Updated: {scholar.last_updated}
+        {" • "}
+        <a href={scholar.profile_url} target="_blank" rel="noopener noreferrer">Google Scholar</a>
+      </div>
+    </div>
+  </section>
+
+  <div style="height: 14px;"></div>
+
+  <div class="grid" style="gap: 12px;">
+    {pubs.map(p => <PubCard pub={p} />)}
+  </div>
 </BaseLayout>
