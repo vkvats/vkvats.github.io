@@ -1,6 +1,6 @@
 :root {
-  --bg: #f4f1ea;          /* paper tint */
-  --surface: #fbfaf7;     /* card surface */
+  --bg: #f3ead7cd;          /* paper tint */
+  --surface: #f5f0e7a8;     /* card surface */
   --text: #1b1b1b;
   --muted: #5b5b5b;
   --border: rgba(0,0,0,0.12);
@@ -85,4 +85,8 @@ hr.sep {
   border: none;
   border-top: 1px solid var(--border);
   margin: 24px 0;
+}
+
+body.home {
+  background: #d2f7f8; /* home-only background */
 }

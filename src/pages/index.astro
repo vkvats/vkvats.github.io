@@ -13,13 +13,13 @@ const selectedPubs = (await getCollection("publications"))
   .slice(0, 3);
 ---
 
-<BaseLayout title="Home">
+<BaseLayout title="Home" bodyClass="home">
   <section class="card" style="padding: 18px;">
     <div style="font-size: 30px; font-weight: 850; letter-spacing: -0.02em;">
-      Your one-line research headline
+      Computer vision for large-scale visual understanding, novel-view synthesis and 3D reconstruction
     </div>
     <p style="color: var(--muted); font-size: 16px; margin-top: 10px; max-width: 72ch;">
-      A 2–3 sentence mission-style description (you’ll replace later).
+      My research involves developing and applying computer vision algorithms that understand, analyze, and organize large-scale datasets of images and video using deep learning-based techniques. My recent focus has been on creating computer vision algorithms that can generate and synthesize 3D models of visual scenes from 2D images, using techniques such as multi-view stereo, stable diffusion, and other deep learning models
     </p>
 
     <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top: 12px;">
@@ -33,21 +33,23 @@ const selectedPubs = (await getCollection("publications"))
 
   <section class="grid grid-2">
     <div class="card" style="padding: 16px;">
-      <h2 style="margin:0 0 10px 0;">Recent news</h2>
-      <NewsList items={news} />
-    </div>
-
-    <div class="card" style="padding: 16px;">
       <h2 style="margin:0 0 10px 0;">Research pillars</h2>
       <ul style="margin:0; padding-left: 18px; color: var(--muted);">
-        <li>Theme 1</li>
-        <li>Theme 2</li>
-        <li>Theme 3</li>
-        <li>Theme 4</li>
+        <li>3D Reconstruction, Multi-View Stereo</li>
+        <li>Splatting, Novel-view Synthesis</li>
+        <li>Generative Modeling for Geospatial images</li>
+        <li>Satellite Imagery Understanding</li>
+        <li>Geometry Reasoning in 3D</li>
+        <li>Deep Leraning core</li>
       </ul>
       <div style="margin-top: 10px;">
         <a class="btn" href="/research">Explore research →</a>
       </div>
+    </div>
+
+    <div class="card" style="padding: 16px;">
+      <h2 style="margin:0 0 10px 0;">Recent news</h2>
+      <NewsList items={news} />
     </div>
   </section>
 
