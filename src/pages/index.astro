@@ -1,17 +1,53 @@
 ---
-
+import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout title="Home">
+  <section class="card" style="padding: 18px;">
+    <div style="font-size: 30px; font-weight: 850; letter-spacing: -0.02em;">
+      Your one-line research headline
+    </div>
+    <p style="color: var(--muted); font-size: 16px; margin-top: 10px; max-width: 72ch;">
+      A 2–3 sentence mission-style description (you’ll replace later).
+    </p>
+
+    <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top: 12px;">
+      <a class="btn btn-primary" href="/publications">View publications</a>
+      <a class="btn" href="/projects">View projects</a>
+      <a class="btn" href="/work">Work / internships</a>
+    </div>
+  </section>
+
+  <div style="height: 16px;"></div>
+
+  <section class="grid grid-2">
+    <div class="card" style="padding: 16px;">
+      <h2 style="margin:0 0 10px 0;">Recent news</h2>
+      <p style="margin:0; color: var(--muted);">
+        We’ll auto-populate this from content files in the next step.
+      </p>
+    </div>
+
+    <div class="card" style="padding: 16px;">
+      <h2 style="margin:0 0 10px 0;">Research pillars</h2>
+      <ul style="margin:0; padding-left: 18px; color: var(--muted);">
+        <li>Theme 1</li>
+        <li>Theme 2</li>
+        <li>Theme 3</li>
+        <li>Theme 4</li>
+      </ul>
+      <div style="margin-top: 10px;">
+        <a class="btn" href="/research">Explore research →</a>
+      </div>
+    </div>
+  </section>
+
+  <hr class="sep" />
+
+  <section class="card" style="padding: 16px;">
+    <h2 style="margin:0 0 10px 0;">Next</h2>
+    <p style="margin:0; color: var(--muted);">
+      Next we’ll add “content collections” so Publications/Projects/News/Work are all controlled from a single place.
+    </p>
+  </section>
+</BaseLayout>
