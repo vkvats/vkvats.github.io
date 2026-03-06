@@ -24,9 +24,19 @@ const bg = item.data.backgroundImage ?? "/images/placeholder-work-bg.jpg";
       </div>
     </div>
     {item.data.location ? <div style="opacity:0.9; margin-top: 6px;">{item.data.location}</div> : null}
+    {item.data.impact ? (
+      <div style="margin-top: 8px; max-width: 90ch; opacity: 0.95;">
+        <span style="font-weight: 750;">Impact:</span> {item.data.impact}
+      </div>
+    ) : null}
   </div>
-
   <div style="padding: 16px;">
+    {item.data.highlights?.length ? (
+      <ul style="margin: 0 0 12px 0; padding-left: 18px;">
+        {item.data.highlights.map((h: string) => <li>{h}</li>)}
+      </ul>
+    ) : null}
+
     <div class="prose" set:html={html} />
     <LinkBar links={item.data.links} />
   </div>

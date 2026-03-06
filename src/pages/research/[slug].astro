@@ -1,0 +1,74 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ProjectCard from "../../components/ProjectCard.astro";
+import PubCard from "../../components/PubCard.astro";
+import TagPills from "../../components/TagPills.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const items = await getCollection("research_themes");
+  return items.map((item) => ({ params: { slug: item.slug }, props: { item } }));
+}
+
+const { item } = Astro.props;
+const themeTags: string[] = item.data.tags ?? [];
+
+const projects = await getCollection("projects");
+const pubs = await getCollection("publications");
+
+function intersects(a: string[], b: string[]) {
+  const setB = new Set(b.map(x => x.toLowerCase()));
+  return a.some(x => setB.has(x.toLowerCase()));
+}
+
+const matchingProjects = projects
+  .filter(p => intersects(p.data.tags ?? [], themeTags))
+  .sort((a, b) => (b.data.title ?? "").localeCompare(a.data.title ?? ""));
+
+const matchingPubs = pubs
+  .filter(p => intersects(p.data.tags ?? [], themeTags))
+  .sort((a, b) => b.data.year - a.data.year);
+---
+
+<BaseLayout title={item.data.title}>
+  <section class="card" style="padding: 16px;">
+    <h1 style="margin:0;">{item.data.title}</h1>
+    {item.data.description ? (
+      <p style="margin: 8px 0 0 0; color: var(--muted); max-width: 80ch;">
+        {item.data.description}
+      </p>
+    ) : null}
+
+    {themeTags.length ? (
+      <div style="margin-top: 10px;">
+        <TagPills tags={themeTags} />
+      </div>
+    ) : null}
+  </section>
+
+  <hr class="sep" />
+
+  <h2 style="margin: 0 0 12px 0;">Projects</h2>
+  {matchingProjects.length ? (
+    <div class="grid grid-3">
+      {matchingProjects.map(p => <ProjectCard project={p} />)}
+    </div>
+  ) : (
+    <div class="card" style="padding: 16px; color: var(--muted);">
+      No projects matched these tags yet. Add matching tags to projects in <code>src/content/projects</code>.
+    </div>
+  )}
+
+  <div style="height: 18px;"></div>
+
+  <h2 style="margin: 0 0 12px 0;">Publications</h2>
+  {matchingPubs.length ? (
+    <div class="grid" style="gap: 12px;">
+      {matchingPubs.map(p => <PubCard pub={p} />)}
+    </div>
+  ) : (
+    <div class="card" style="padding: 16px; color: var(--muted);">
+      No publications matched these tags yet. Add matching tags to publications in <code>src/content/publications</code>.
+    </div>
+  )}
+</BaseLayout>

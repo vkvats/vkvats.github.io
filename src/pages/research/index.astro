@@ -1,10 +1,38 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const themes = (await getCollection("research_themes"))
+  .sort((a, b) => (a.data.order ?? 0) - (b.data.order ?? 0));
 ---
 
 <BaseLayout title="Research">
   <h1 style="margin-top:0;">Research</h1>
-  <p style="color: var(--muted);">
-    Next step: theme taxonomy + links to projects/publications.
+  <p style="color: var(--muted); max-width: 80ch;">
+    Paper categorization by research areas
   </p>
+
+  <div class="grid grid-2" style="margin-top: 14px;">
+    {themes.map(t => (
+      <a href={`/research/${t.slug}`} style="color: inherit; text-decoration:none;">
+        <div class="card" style="padding: 16px;">
+          <div style="font-weight: 850; font-size: 18px;">
+            {t.data.title}
+          </div>
+          {t.data.description ? (
+            <div style="margin-top: 8px; color: var(--muted);">
+              {t.data.description}
+            </div>
+          ) : (
+            <div style="margin-top: 8px; color: var(--muted);">
+              Add a short description for this theme.
+            </div>
+          )}
+          <div style="margin-top: 10px; color: var(--muted); font-size: 13px;">
+            Open theme →
+          </div>
+        </div>
+      </a>
+    ))}
+  </div>
 </BaseLayout>
