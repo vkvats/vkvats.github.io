@@ -14,19 +14,73 @@ const selectedPubs = (await getCollection("publications"))
 ---
 
 <BaseLayout title="Home" bodyClass="home">
-  <section class="card" style="padding: 18px;">
-    <div style="font-size: 30px; font-weight: 850; letter-spacing: -0.02em;">
-      Computer vision for large-scale visual understanding, novel-view synthesis and 3D reconstruction
-    </div>
-    <p style="color: var(--muted); font-size: 16px; margin-top: 10px; max-width: 72ch;">
-      My research involves developing and applying computer vision algorithms that understand, analyze, and organize large-scale datasets of images and video using deep learning-based techniques. My recent focus has been on creating computer vision algorithms that can generate and synthesize 3D models of visual scenes from 2D images, using techniques such as multi-view stereo, stable diffusion, and other deep learning models
-    </p>
 
-    <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top: 12px;">
-      <a class="btn btn-primary" href="/publications">View publications</a>
-      <a class="btn" href="/projects">View projects</a>
-      <a class="btn" href="/work">Work / internships</a>
+  <section class="card" style="padding: 16px; margin-top: 16px;">
+    <div style="display:grid; grid-template-columns: 160px 1fr; gap: 16px; align-items:center;">
+      <div>
+        <img
+          src="/images/profile.png"
+          alt="Vibhas Vats"
+          style="width:160px; height:160px; object-fit:cover; border-radius: 18px; border: 1px solid var(--border); display:block;"
+        />
+      </div>
+
+      <div>
+        <div style="font-weight: 850; font-size: 22px; letter-spacing: -0.01em;">
+          Vibhas Vats
+        </div>
+        <div style="color: var(--muted); margin-top: 6px;">
+          Ph.D. Candidate • Computer Vision • 3D Reconstruction • Geometric Reasoning • Novel-View Synthesis 
+        </div>
+
+        <p style="margin: 10px 0 0 0; color: var(--text); max-width: 80ch;">
+          I am a Ph.D. candidate at
+          <a href="https://www.indiana.edu/" target="_blank" rel="noopener noreferrer">Indiana University Bloomington</a>.
+          I work in the
+          <a href="http://vision.soic.indiana.edu/" target="_blank" rel="noopener noreferrer">Computer Vision Lab</a>
+          with
+          <a href="https://homes.luddy.indiana.edu/djcran/" target="_blank" rel="noopener noreferrer">Prof. David Crandall</a>.
+          I am majoring in Computer Science with a minor in Machine Learning.
+          Before joining the Ph.D. program, I earned a master's degree in
+          <a href="https://datascience.indiana.edu/programs/residential/index.html" target="_blank" rel="noopener noreferrer">Data Science</a>
+          at Indiana University with a thesis on
+          <a href="https://vkvats.github.io/files/Vkvats_master_thesis.pdf" target="_blank" rel="noopener noreferrer">“Response-Based Knowledge Distillation”</a>.
+          I completed a Bachelor's degree in Electrical Engineering at the National Institute of Technology, Patna
+          (<a href="http://www.nitp.ac.in" target="_blank" rel="noopener noreferrer">NITP</a>).
+        </p>
+
+        <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top: 12px;">
+          <a class="btn btn-primary" href="/publications">Publications</a>
+          <a class="btn" href="/projects">Projects</a>
+          <a class="btn" href="/work">Work / internships</a>
+          <a class="btn" href="/cv">CV</a>
+        </div>
+      </div>
     </div>
+
+    <style>
+      @media (max-width: 720px) {
+        div[style*="grid-template-columns"] {
+          grid-template-columns: 1fr !important;
+        }
+        img {
+          width: 140px !important;
+          height: 140px !important;
+        }
+      }
+    </style>
+  </section>
+
+  <section class="card" style="padding: 18px;">
+    <div style="font-size: 25px; font-weight: 850; letter-spacing: -0.02em;">
+      Large-scale visual understanding, novel-view synthesis and 3D reconstruction
+    </div>
+    <p style="color: var(--muted); font-size: 16px; margin-top: 10px; max-width: 100ch;">
+      My research involves developing and applying computer vision algorithms that understand, analyze, 
+      and organize large-scale datasets of images and video using deep learning-based techniques. 
+      My recent focus has been on creating computer vision algorithms that can generate and synthesize 
+      3D models of visual scenes from 2D images, using techniques such as multi-view stereo, stable diffusion, and other deep learning models
+    </p>
   </section>
 
   <div style="height: 16px;"></div>
