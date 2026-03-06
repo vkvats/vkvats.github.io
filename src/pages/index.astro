@@ -4,6 +4,7 @@ import { getCollection } from "astro:content";
 import NewsList from "../components/NewsList.astro";
 import ProjectCard from "../components/ProjectCard.astro";
 import PubCard from "../components/PubCard.astro";
+import QuickLinks from "../components/QuickLinks.astro";
 
 const news = (await getCollection("news")).sort((a,b) => b.data.date.getTime() - a.data.date.getTime()).slice(0, 5);
 const projects = (await getCollection("projects")).slice(0, 3);
@@ -15,7 +16,7 @@ const selectedPubs = (await getCollection("publications"))
 
 <BaseLayout title="Home" bodyClass="home">
 
-  <section class="card" style="padding: 16px; margin-top: 16px;">
+  <section class="card" style="padding: 16px; margin-top: 16px; margin-bottom: 16px;">
     <div style="display:grid; grid-template-columns: 160px 1fr; gap: 16px; align-items:center;">
       <div>
         <img
@@ -26,9 +27,16 @@ const selectedPubs = (await getCollection("publications"))
       </div>
 
       <div>
-        <div style="font-weight: 850; font-size: 22px; letter-spacing: -0.01em;">
-          Vibhas Vats
+        <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:16px; flex-wrap:wrap;">
+          <div style="font-weight: 850; font-size: 22px; letter-spacing: -0.01em;">
+            Vibhas Kumar Vats
+          </div>
+
+          <div style="margin-top: 2px;">
+            <QuickLinks cvUrl="/files/cv.pdf" />
+          </div>
         </div>
+
         <div style="color: var(--muted); margin-top: 6px;">
           Ph.D. Candidate • Computer Vision • 3D Reconstruction • Geometric Reasoning • Novel-View Synthesis 
         </div>
