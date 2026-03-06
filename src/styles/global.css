@@ -116,5 +116,19 @@ body.home .site-nav {
 }
 
 .site-nav-link {
-  font-size: 18px; /* change to 17px or 18px if you want */
+  font-size: 16px; /* change to 17px or 18px if you want */
+}
+
+/* Scholar stats (publications page) */
+.scholar-stat-card {
+  background: #fafad0;           /* light tint */
+  border-color: rgba(5, 47, 175, 0.25);
+}
+
+.scholar-stat-card > div:first-child {
+  color: rgba(7, 7, 7, 0.7);  /* label */
+}
+
+.scholar-stat-card > div:last-child {
+  color: var(--accent);          /* big number */
 }

@@ -4,12 +4,19 @@ import PubCard from "../../components/PubCard.astro";
 import scholar from "../../data/scholar.json";
 import { getCollection } from "astro:content";
 
-// const pubs = (await getCollection("publications")).sort((a,b) => b.data.year - a.data.year);
 const pubs = (await getCollection("publications")).sort((a,b) => b.data.year - a.data.year)
   .filter(p => !p.slug.startsWith("_"))
   .sort((a,b) => b.data.year - a.data.year);
 const selected = pubs.filter(p => p.data.selected);
 const all = pubs; // keep everything here
+
+const years = Array.from(new Set(all.map(p => p.data.year))).sort((a, b) => b - a);
+
+const tags = Array.from(
+  new Set(
+    all.flatMap(p => (p.data.tags ?? []).map((t: string) => t.toLowerCase().trim()))
+  )
+).sort((a, b) => a.localeCompare(b));
 ---
 
 <BaseLayout title="Publications">
@@ -19,16 +26,16 @@ const all = pubs; // keep everything here
       Publications are generated from a single collection.
     </p>
 
-    <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top: 14px;">
-      <div class="card" style="padding: 12px; box-shadow:none;">
+    <div class="scholar-stats" style="display:flex; gap:12px; flex-wrap:wrap; margin-top: 14px;">
+      <div class="card scholar-stat-card" style="padding: 12px; box-shadow:none;">
         <div style="color: var(--muted); font-size: 13px;">Citations</div>
         <div style="font-weight: 850; font-size: 20px;">{scholar.citations}</div>
       </div>
-      <div class="card" style="padding: 12px; box-shadow:none;">
+      <div class="card scholar-stat-card" style="padding: 12px; box-shadow:none;">
         <div style="color: var(--muted); font-size: 13px;">h-index</div>
         <div style="font-weight: 850; font-size: 20px;">{scholar.h_index}</div>
       </div>
-      <div class="card" style="padding: 12px; box-shadow:none;">
+      <div class="card scholar-stat-card" style="padding: 12px; box-shadow:none;">
         <div style="color: var(--muted); font-size: 13px;">i10-index</div>
         <div style="font-weight: 850; font-size: 20px;">{scholar.i10_index}</div>
       </div>
@@ -40,17 +47,94 @@ const all = pubs; // keep everything here
     </div>
   </section>
 
+  <section class="card" style="padding: 12px; margin-top: 14px;">
+    <div style="display:flex; gap:12px; flex-wrap:wrap; align-items:center; justify-content:space-between;">
+      <div style="font-weight: 750;">Filter publications</div>
+
+      <div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+        <div style="display:flex; gap:8px; align-items:center;">
+          <label for="yearFilter" style="color: var(--muted); font-size: 14px;">Year</label>
+          <select id="yearFilter" class="filter-select">
+            <option value="all">All</option>
+            {years.map(y => <option value={String(y)}>{y}</option>)}
+          </select>
+        </div>
+
+        <div style="display:flex; gap:8px; align-items:center;">
+          <label for="tagFilter" style="color: var(--muted); font-size: 14px;">Tag</label>
+          <select id="tagFilter" class="filter-select">
+            <option value="all">All</option>
+            {tags.map(t => <option value={t}>{t}</option>)}
+          </select>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <style>
+    .filter-select {
+      padding: 8px 10px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.7);
+      color: var(--text);
+      font-size: 14px;
+      outline: none;
+    }
+  </style>
+
+  <script type="module">
+    const yearSel = document.getElementById("yearFilter");
+    const tagSel  = document.getElementById("tagFilter");
+    const items   = document.querySelectorAll("[data-pub-year]");
+
+    function applyFilter() {
+      const y = yearSel.value;
+      const t = tagSel.value;
+
+      items.forEach((el) => {
+        const year = el.getAttribute("data-pub-year");
+        const tags = (el.getAttribute("data-pub-tags") || "")
+          .split(",")
+          .map(s => s.trim().toLowerCase())
+          .filter(Boolean);
+
+        const yearOk = (y === "all" || y === year);
+        const tagOk  = (t === "all" || tags.includes(t));
+
+        el.style.display = (yearOk && tagOk) ? "" : "none";
+      });
+    }
+
+    yearSel.addEventListener("change", applyFilter);
+    tagSel.addEventListener("change", applyFilter);
+  </script>
+
   <div style="height: 14px;"></div>
 
   <h2 style="margin: 0 0 12px 0;">Highlighted</h2>
   <div class="grid" style="gap: 12px;">
-    {selected.map(p => <PubCard pub={p} />)}
+    {selected.map(p => (
+      <div
+        data-pub-year={String(p.data.year)}
+        data-pub-tags={(p.data.tags ?? []).join(",")}
+      >
+        <PubCard pub={p} />
+      </div>
+    ))}
   </div>
 
   <hr class="sep" />
 
   <h2 style="margin: 0 0 12px 0;">All</h2>
   <div class="grid" style="gap: 12px;">
-    {all.map(p => <PubCard pub={p} />)}
+    {all.map(p => (
+    <div
+      data-pub-year={String(p.data.year)}
+      data-pub-tags={(p.data.tags ?? []).join(",")}
+    >
+      <PubCard pub={p} />
+    </div>
+  ))}
   </div>
 </BaseLayout>
