@@ -4,7 +4,10 @@ import PubCard from "../../components/PubCard.astro";
 import scholar from "../../data/scholar.json";
 import { getCollection } from "astro:content";
 
+// const pubs = (await getCollection("publications")).sort((a,b) => b.data.year - a.data.year);
 const pubs = (await getCollection("publications")).sort((a,b) => b.data.year - a.data.year);
+const selected = pubs.filter(p => p.data.selected);
+const all = pubs; // keep everything here
 ---
 
 <BaseLayout title="Publications">
@@ -37,7 +40,15 @@ const pubs = (await getCollection("publications")).sort((a,b) => b.data.year - a
 
   <div style="height: 14px;"></div>
 
+  <h2 style="margin: 0 0 12px 0;">Highlighted</h2>
   <div class="grid" style="gap: 12px;">
-    {pubs.map(p => <PubCard pub={p} />)}
+    {selected.map(p => <PubCard pub={p} />)}
+  </div>
+
+  <hr class="sep" />
+
+  <h2 style="margin: 0 0 12px 0;">All</h2>
+  <div class="grid" style="gap: 12px;">
+    {all.map(p => <PubCard pub={p} />)}
   </div>
 </BaseLayout>

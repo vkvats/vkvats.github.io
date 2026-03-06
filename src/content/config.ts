@@ -3,12 +3,20 @@ import { defineCollection, z } from "astro:content";
 const linksSchema = z.object({
   project: z.string().optional(),
   pdf: z.string().optional(),
+  arxiv: z.string().optional(),
   code: z.string().optional(),
   bibtex: z.string().optional(),
   video: z.string().optional(),
+  poster: z.string().optional(),
+  supplement: z.string().optional(),
   dataset: z.string().optional(),
   doi: z.string().optional(),
   demo: z.string().optional(),
+  updated: z.string().optional(),
+  paper: z.string().optional(),
+  company: z.string().optional(),
+  blog: z.string().optional(),
+  repo: z.string().optional(),
 }).optional();
 
 const publications = defineCollection({
@@ -18,6 +26,7 @@ const publications = defineCollection({
     authors: z.string(),
     year: z.number().int(),
     venue: z.string().optional(),
+    summary: z.string().optional(),
     type: z.enum(["conference", "journal", "workshop", "preprint", "thesis", "other"]).default("other"),
     selected: z.boolean().default(false),
     tags: z.array(z.string()).default([]),
@@ -57,12 +66,7 @@ const work = defineCollection({
     end: z.string(),   // "YYYY-MM" or "Present"
     backgroundImage: z.string().optional(), // "/images/..."
     tags: z.array(z.string()).default([]),
-    links: z.object({
-      company: z.string().optional(),
-      blog: z.string().optional(),
-      repo: z.string().optional(),
-      paper: z.string().optional(),
-    }).optional(),
+    links: linksSchema,
   }),
 });
 
