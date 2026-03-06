@@ -1,11 +1,15 @@
 :root {
-  --bg: #f3ead7cd;          /* paper tint */
-  --surface: #f5f0e7a8;     /* card surface */
+  --bg: #f3ead7cd;          /* default paper tint */
+  --surface: #f5f0e7a8;     /* default card surface */
   --text: #1b1b1b;
-  --muted: #5b5b5b;
+  --muted: #454545;
   --border: rgba(0,0,0,0.12);
   --shadow: 0 10px 30px rgba(0,0,0,0.06);
   --accent: #1f4dd8;
+
+  /* NAVBAR colors (defaults for all pages) */
+  --nav-bg: rgba(244, 124, 59, 0.35);
+  --nav-blur: blur(6px);
 
   --radius: 16px;
   --maxw: 980px;
@@ -76,10 +80,13 @@ a:hover { text-decoration: underline; }
 
 .btn-primary {
   background: var(--accent);
-  color: white;
+  color: rgb(245, 213, 183);
   border-color: rgba(0,0,0,0.05);
 }
-.btn-primary:hover { filter: brightness(0.95); }
+.btn-primary:hover {
+  filter: brightness(1.15);
+  color: var(--text);
+}
 
 hr.sep {
   border: none;
@@ -87,6 +94,27 @@ hr.sep {
   margin: 24px 0;
 }
 
+/* -------------------------
+   NAVBAR (site-wide)
+-------------------------- */
+.site-nav {
+  border-bottom: 1px solid var(--border);
+  background: var(--nav-bg);
+  backdrop-filter: var(--nav-blur);
+}
+
+/* -------------------------
+   HOME overrides (only when BaseLayout uses bodyClass="home")
+-------------------------- */
 body.home {
-  background: #d2f7f8; /* home-only background */
+  background: #d2f7f8; /* home-only page background */
+}
+
+/* home-only navbar background */
+body.home .site-nav {
+  background: #2ee5ec; /* home-only navbar background */
+}
+
+.site-nav-link {
+  font-size: 18px; /* change to 17px or 18px if you want */
 }

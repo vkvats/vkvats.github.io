@@ -6,39 +6,47 @@ import ProjectCard from "../components/ProjectCard.astro";
 import PubCard from "../components/PubCard.astro";
 import QuickLinks from "../components/QuickLinks.astro";
 
-const news = (await getCollection("news")).sort((a,b) => b.data.date.getTime() - a.data.date.getTime()).slice(0, 5);
-const projects = (await getCollection("projects")).slice(0, 3);
+const news = (await getCollection("news"))
+  .filter(n => !n.slug.startsWith("_"))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0, 5);
+
+const projects = (await getCollection("projects"))
+  .filter(p => !p.slug.startsWith("_"))
+  .slice(0, 3);
+
 const selectedPubs = (await getCollection("publications"))
+  .filter(p => !p.slug.startsWith("_"))
   .filter(p => p.data.selected)
-  .sort((a,b) => b.data.year - a.data.year)
+  .sort((a, b) => b.data.year - a.data.year)
   .slice(0, 3);
 ---
 
 <BaseLayout title="Home" bodyClass="home">
 
   <section class="card" style="padding: 16px; margin-top: 16px; margin-bottom: 16px;">
-    <div style="display:grid; grid-template-columns: 160px 1fr; gap: 16px; align-items:center;">
+    <div class="profile-grid">
       <div>
         <img
           src="/images/profile.png"
           alt="Vibhas Vats"
-          style="width:160px; height:160px; object-fit:cover; border-radius: 18px; border: 1px solid var(--border); display:block;"
+          class="profile-photo"
         />
       </div>
 
       <div>
-        <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:16px; flex-wrap:wrap;">
-          <div style="font-weight: 850; font-size: 22px; letter-spacing: -0.01em;">
+        <div class="name-row">
+          <div class="name">
             Vibhas Kumar Vats
           </div>
 
-          <div style="margin-top: 2px;">
+          <div class="quicklinks">
             <QuickLinks cvUrl="/files/cv.pdf" />
           </div>
         </div>
 
         <div style="color: var(--muted); margin-top: 6px;">
-          Ph.D. Candidate • Computer Vision • 3D Reconstruction • Geometric Reasoning • Novel-View Synthesis 
+          Ph.D. Candidate • Computer Vision • 3D Reconstruction • Geometric Reasoning • Novel-View Synthesis
         </div>
 
         <p style="margin: 10px 0 0 0; color: var(--text); max-width: 80ch;">
@@ -67,13 +75,55 @@ const selectedPubs = (await getCollection("publications"))
     </div>
 
     <style>
+      .profile-grid {
+        display: grid;
+        grid-template-columns: 160px 1fr;
+        gap: 16px;
+        align-items: center;
+      }
+
+      .profile-photo {
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 18px;
+        border: 1px solid var(--border);
+        display: block;
+      }
+
+      .name-row {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 16px;
+        flex-wrap: wrap;
+      }
+
+      .name {
+        font-weight: 850;
+        font-size: 22px;
+        letter-spacing: -0.01em;
+      }
+
+      .quicklinks :global(.btn) {
+        padding: 6px 10px;
+        font-size: 13px;
+      }
+
       @media (max-width: 720px) {
-        div[style*="grid-template-columns"] {
-          grid-template-columns: 1fr !important;
+        .profile-grid {
+          grid-template-columns: 1fr;
+          align-items: start;
         }
-        img {
-          width: 140px !important;
-          height: 140px !important;
+
+        .profile-photo {
+          width: 140px;
+          height: 140px;
+        }
+
+        .name-row {
+          flex-direction: column;
+          align-items: flex-start;
         }
       }
     </style>

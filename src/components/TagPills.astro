@@ -1,6 +1,38 @@
 ---
 const { tags } = Astro.props as { tags: string[] };
+
+function prettyTag(t: string): string {
+  const raw = t.trim();
+
+  // special cases you care about (add more any time)
+  const special: Record<string, string> = {
+    "3d": "3D",
+    "3d Reconstruction": "3D Reconstruction",
+    "3d reconstruction": "3D Reconstruction",
+    "geoai": "GeoAI",
+    "cv": "CV",
+    "splatting": "Splatting",
+    "multi-view stereo": "Multi-View Stereo",
+    "novel-view synthesis": "Novel-View Synthesis",
+    "nerf": "NeRF"
+  };
+
+  const key = raw.toLowerCase();
+  if (special[key]) return special[key];
+
+  // kebab/snake -> spaced words
+  const words = raw
+    .replace(/[_-]+/g, " ")
+    .split(" ")
+    .filter(Boolean);
+
+  // Title Case
+  return words
+    .map(w => w.length ? (w[0].toUpperCase() + w.slice(1).toLowerCase()) : w)
+    .join(" ");
+}
 ---
+
 <div>
-  {tags.map(t => <span class="pill">{t}</span>)}
+  {tags.map(t => <span class="pill">{prettyTag(t)}</span>)}
 </div>

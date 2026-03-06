@@ -6,14 +6,16 @@ import PubCard from "../../components/PubCard.astro";
 import { getCollection } from "astro:content";
 
 export async function getStaticPaths() {
-  const items = await getCollection("projects");
+  const items = (await getCollection("projects"))
+    .filter(p => !p.slug.startsWith("_"));
   return items.map((item) => ({ params: { slug: item.slug }, props: { item } }));
 }
 
 const { item } = Astro.props;
 const { Content } = await item.render();
 
-const pubs = await getCollection("publications");
+const pubs = (await getCollection("publications"))
+  .filter(p => !p.slug.startsWith("_"));
 const related = pubs.filter(p => item.data.relatedPublications?.includes(p.slug));
 ---
 

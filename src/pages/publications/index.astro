@@ -5,7 +5,9 @@ import scholar from "../../data/scholar.json";
 import { getCollection } from "astro:content";
 
 // const pubs = (await getCollection("publications")).sort((a,b) => b.data.year - a.data.year);
-const pubs = (await getCollection("publications")).sort((a,b) => b.data.year - a.data.year);
+const pubs = (await getCollection("publications")).sort((a,b) => b.data.year - a.data.year)
+  .filter(p => !p.slug.startsWith("_"))
+  .sort((a,b) => b.data.year - a.data.year);
 const selected = pubs.filter(p => p.data.selected);
 const all = pubs; // keep everything here
 ---

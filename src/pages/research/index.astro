@@ -3,6 +3,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 
 const themes = (await getCollection("research_themes"))
+  .filter(t => !t.slug.startsWith("_"))
   .sort((a, b) => (a.data.order ?? 0) - (b.data.order ?? 0));
 ---
 

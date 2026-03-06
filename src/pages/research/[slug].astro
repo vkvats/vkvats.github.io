@@ -6,15 +6,19 @@ import TagPills from "../../components/TagPills.astro";
 import { getCollection } from "astro:content";
 
 export async function getStaticPaths() {
-  const items = await getCollection("research_themes");
+  const items = (await getCollection("research_themes"))
+    .filter(t => !t.slug.startsWith("_"));
   return items.map((item) => ({ params: { slug: item.slug }, props: { item } }));
 }
 
 const { item } = Astro.props;
 const themeTags: string[] = item.data.tags ?? [];
 
-const projects = await getCollection("projects");
-const pubs = await getCollection("publications");
+const projects = (await getCollection("projects"))
+  .filter(p => !p.slug.startsWith("_"));
+
+const pubs = (await getCollection("publications"))
+  .filter(p => !p.slug.startsWith("_"));
 
 function intersects(a: string[], b: string[]) {
   const setB = new Set(b.map(x => x.toLowerCase()));

@@ -3,7 +3,9 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import WorkPanel from "../../components/WorkPanel.astro";
 import { getCollection } from "astro:content";
 
-const items = (await getCollection("work")).sort((a,b) => (b.data.end || "").localeCompare(a.data.end || ""));
+const items = (await getCollection("work"))
+  .filter(w => !w.slug.startsWith("_"))
+  .sort((a,b) => (b.data.end || "").localeCompare(a.data.end || ""));
 ---
 
 <BaseLayout title="Work">
