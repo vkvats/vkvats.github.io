@@ -1,6 +1,7 @@
 ---
 title: "Surveys"
 order: 7
-description: "Placeholder description. Later you’ll write 2–3 sentences about this theme."
+description: "Surveying diverse topics in AI and computer vision, synthesizing key methods, trends, challenges, and future research directions"
 tags: ["survey"]
+# image: "images/themes/placeholder-teaser.jpg"
 ---

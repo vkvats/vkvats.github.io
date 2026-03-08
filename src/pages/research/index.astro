@@ -16,24 +16,64 @@ const themes = (await getCollection("research_themes"))
   <div class="grid grid-2" style="margin-top: 14px;">
     {themes.map(t => (
       <a href={`/research/${t.slug}`} style="color: inherit; text-decoration:none;">
-        <div class="card" style="padding: 16px;">
-          <div style="font-weight: 850; font-size: 18px;">
-            {t.data.title}
-          </div>
-          {t.data.description ? (
-            <div style="margin-top: 8px; color: var(--muted);">
-              {t.data.description}
+        <div class="card theme-card">
+          {t.data.image ? (
+            <img class="theme-img" src={t.data.image} alt="" loading="lazy" />
+          ) : null}
+
+          <div class="theme-body">
+            <div class="theme-title">{t.data.title}</div>
+
+            <div class="theme-desc">
+              {t.data.description ? t.data.description : "Add a short description for this theme."}
             </div>
-          ) : (
-            <div style="margin-top: 8px; color: var(--muted);">
-              Add a short description for this theme.
-            </div>
-          )}
-          <div style="margin-top: 10px; color: var(--muted); font-size: 13px;">
-            Open theme →
+
+            <div class="theme-cta">Open theme →</div>
           </div>
         </div>
       </a>
     ))}
   </div>
+
+  <style>
+    .theme-card {
+      overflow: hidden;
+    }
+
+    .theme-img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      display: block;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .theme-body {
+      padding: 16px;
+    }
+
+    .theme-title {
+      font-weight: 850;
+      font-size: 18px;
+    }
+
+    .theme-desc {
+      margin-top: 8px;
+      color: var(--muted);
+    }
+
+    .theme-cta {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    /* Optional: subtle hover affordance */
+    a:hover .theme-card {
+      transform: translateY(-1px);
+    }
+    .theme-card {
+      transition: transform 120ms ease;
+    }
+  </style>
 </BaseLayout>

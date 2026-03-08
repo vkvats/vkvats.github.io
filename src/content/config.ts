@@ -76,6 +76,7 @@ const research_themes = defineCollection({
   type: "content",
   schema: z.object({
     title: z.string(),
+    image: z.string().optional(),
     order: z.number().int().default(0),
     description: z.string().optional(),
     tags: z.array(z.string()).default([]), // used to match projects/pubs by tags
