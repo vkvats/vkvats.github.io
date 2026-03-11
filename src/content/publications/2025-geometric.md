@@ -5,7 +5,7 @@ year: 2025
 venue: "ACM Computing Surveys"
 type: conference
 selected: True
-summary: "One-sentence contribution summary."
+summary: "This survey examines how geometry can be integrated into deep learning frameworks for depth estimation and related computer vision problems. It presents a taxonomy of common geometry-based constraints, compares existing methods, and discusses future research opportunities."
 tags: ["3D Reconstruction", "Depth Estimation", "Multi-View Stereo", "Survey"]
 links:
   arxiv: "https://arxiv.org/abs/2403.12431"

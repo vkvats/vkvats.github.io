@@ -5,7 +5,7 @@ year: 2025
 venue: "ICCBR"
 type: conference
 selected: false
-summary: "One-sentence contribution summary."
+summary: "This paper explores feature learning for case-based reasoning using deep neural networks. We introduce a training strategy that combines standard classification loss with additional objectives that better reflect how case-based systems compare examples. Experiments on multiple image datasets show that the learned features lead to stronger case-based classification than conventional end-to-end deep models."
 tags: ["cbr", "case based reasoning"]
 links:
 #   project: "/projects/your-project-slug"

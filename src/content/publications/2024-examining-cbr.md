@@ -5,7 +5,7 @@ year: 2023
 venue: "ICCBR"
 type: conference
 selected: false
-summary: "One-sentence contribution summary."
+summary: "This paper examines how different deep learning architectures influence feature extraction for case-based classification. By comparing multiple models, we show that the usefulness of extracted features depends on both the network design and the data available for training. The study also provides guidance for choosing suitable models for case-based reasoning tasks."
 tags: ["case based reasoning", "cbr"]
 links:
 #   arxiv: "https://arxiv.org/abs/XXXX.XXXXX"

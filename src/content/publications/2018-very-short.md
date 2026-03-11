@@ -5,17 +5,10 @@ year: 2018
 venue: "ICCCA"
 type: conference
 selected: false
-summary: "One-sentence contribution summary."
+summary: "This paper develops a load forecasting approach for smart meter data that works across several forecasting ranges, from 15-minute and hour-ahead prediction to day-ahead, month-ahead, and season-ahead forecasting. We evaluate the method on a real campus distribution system with mixed load types, showing its usefulness in practical and diverse energy settings."
 tags: ["Power systems",]
 links:
-#   project: "/projects/your-project-slug"
-#   arxiv: "https://arxiv.org/abs/XXXX.XXXXX"
   pdf: "https://drive.google.com/file/d/1AzFRglRnGVgWEKNxUvYs9iBQ2_hT--NN/view"
-#   code: "https://github.com/..."
-#   poster: "/files/posters/your-poster.pdf"
-#   supplement: "/files/supp/your-supp.pdf"
-#   dataset: "https://..."
-#   video: "https://..."
   doi: "https://doi.org/..."
   bibtex: "/bib/very-short-2018.bib"
 ---

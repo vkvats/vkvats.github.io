@@ -5,7 +5,7 @@ year: 2024
 venue: "Neurocomputing"
 type: journal
 selected: false
-summary: "One-sentence contribution summary."
+summary: "This survey presents an overview of deep learning approaches for 3D reconstruction. It groups existing work into major problem settings and compares methods based on their architecture, outputs, datasets, and quantitative results. The paper also highlights current challenges and promising directions for future research."
 tags: ["survey", "3d reconstruction", "multi-view stereo"]
 links:
   paper: "https://www.sciencedirect.com/science/article/pii/S0925231224007896"

@@ -5,7 +5,7 @@ year: 2024
 venue: "ICCBR"
 type: conference
 selected: false
-summary: "One-sentence contribution summary."
+summary: "This paper examines whether transfer learning can help learn better indexing features for case-based reasoning in limited-data domains. Our experiments show that pretrained deep models produce stronger and more reliable features for case retrieval than models trained from scratch. In the tested setting, the resulting case-based classifier also performs better than similar deep learning baselines."
 tags: ["cbr", "Case Based Reasoning"]
 links:
   pdf: "https://homes.luddy.indiana.edu/leake/papers/p-24-01.pdf"

@@ -5,7 +5,7 @@ year: 2026
 venue: "ArXiv-preprint"
 type: conference
 selected: true
-summary: "One-sentence contribution summary."
+summary: "This paper investigates why generative models can degrade when they are repeatedly trained on AI-generated data. We introduce the idea of neural resonance, where iterative feedback pushes models toward a low-dimensional latent structure, and show the conditions under which this happens. We also analyze several model families and describe common patterns of collapse that can help guide future mitigation strategies."
 tags: ["Diffusion", "Generative Models", "Deep Learning", "Neural Resonance"]
 links:
 #   project: "/projects/your-project-slug"
